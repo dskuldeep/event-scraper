@@ -1,0 +1,124 @@
+{
+  "event_name": "World Governments Summit 2025",
+  "dates": {
+    "start": "2025-02-11",
+    "end": "2025-02-13",
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": "Dubai",
+    "state": null,
+    "country": "UAE",
+    "virtual": false,
+    "hybrid": false
+  },
+  "description": "Where governments, international organizations, thought leaders, and private sector innovators come together to inspire the next generation of governments.",
+  "topics": [
+    "Effective Governance and Accountability"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [
+    {
+      "name": "Sundar Pichai",
+      "title": "Chief Executive Officer",
+      "organization": "Google and Alphabet"
+    },
+    {
+      "name": "Robin Li",
+      "title": "Co-founder and Chief Executive Officer",
+      "organization": "Baidu"
+    },
+    {
+      "name": "Larry Ellison",
+      "title": "Chairman of the Board and Chief Technology Officer",
+      "organization": "Oracle"
+    },
+    {
+      "name": "Christian Klein",
+      "title": "Chief Executive Officer",
+      "organization": "SAP"
+    },
+    {
+      "name": "Enrique Lores",
+      "title": "President and Chief Executive Officer",
+      "organization": "Hp Inc."
+    },
+    {
+      "name": "Joseph Tsai",
+      "title": "Chairperson",
+      "organization": "Alibaba Group"
+    },
+    {
+      "name": "Anura Kumara Disanayaka",
+      "title": "President of the Democratic Socialist Republic of Sri Lanka",
+      "organization": "Government of the Democratic Socialist Republic of Sri Lanka"
+    },
+    {
+      "name": "Sheikh Ahmad Abdullah Al Ahmad Al Sabah",
+      "title": "Prime Minister",
+      "organization": "Government of the State of Kuwait"
+    },
+    {
+      "name": "Louise Araneta-marcos",
+      "title": "the First Lady",
+      "organization": "Government of the Republic of the Philippines"
+    },
+    {
+      "name": "Muhammad Shahbaz Sharif",
+      "title": "Prime Minister",
+      "organization": "Government of the Islamic Republic of Pakistan"
+    },
+    {
+      "name": "Robinah Nabbanja",
+      "title": "Prime Minister",
+      "organization": "Government of the Republic of Uganda"
+    },
+    {
+      "name": "Evika Silina",
+      "title": "Prime Minister",
+      "organization": "Government of the Republic of Latvia"
+    },
+    {
+      "name": "Arvind Krishna",
+      "title": "Chairman and Chief Executive Officer",
+      "organization": "IBM"
+    },
+    {
+      "name": "Kristalina Georgieva",
+      "title": "Managing Director",
+      "organization": "International Monetary Fund (IMF)"
+    },
+    {
+      "name": "Audrey Azoulay",
+      "title": "Director General",
+      "organization": "United Nations Education Scientific & Cultural Organization (UNESCO)"
+    },
+    {
+      "name": "Salvatore Sciacchitano",
+      "title": "President of International Civil Aviation Organization",
+      "organization": "(ICAO)"
+    },
+    {
+      "name": "Makhtar Diop",
+      "title": "Managing Director",
+      "organization": "International Finance Corporation (IFC)"
+    },
+    {
+      "name": "Klaus Schwab",
+      "title": "Founder and Executive Chairman",
+      "organization": null
+    }
+  ],
+  "organizer": {
+    "name": "World Governments Summit Organization",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.worldgovernmentsummit.org/events",
+  "last_updated": "2025-04-24T13:06:42.350468"
+}

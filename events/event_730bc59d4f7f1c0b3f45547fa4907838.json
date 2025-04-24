@@ -1,0 +1,27 @@
+{
+  "event_name": null,
+  "dates": null,
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "AWS",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.aws.training/events",
+  "last_updated": "2025-04-24T13:08:19.319517"
+}

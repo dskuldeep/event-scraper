@@ -1,0 +1,33 @@
+{
+  "event_name": "2025 ElasticON Tour Sydney On Demand",
+  "dates": {
+    "start": "2025-03-06",
+    "end": "2025-03-06",
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": "Sydney",
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "ElasticON Sydney 2025 was a groundbreaking event focused on\nSupercharging <anything> with Search AI.\nWhile the event itself has come to a close, the opportunity to learn and grow doesn't have to. We're offering on-demand access to exclusive sessions, insights, and innovations from some of the brightest minds in the industry. Whether you missed t...",
+  "topics": [
+    "Search AI"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Elastic",
+    "website": "https://www.elastic.co/",
+    "contact_email": null
+  },
+  "source_url": "https://www.elastic.co/events",
+  "last_updated": "2025-04-24T13:07:49.349922"
+}

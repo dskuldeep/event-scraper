@@ -1,0 +1,27 @@
+{
+  "event_name": "Red Hat Summit",
+  "dates": null,
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Red Hat, Inc.",
+    "website": "redhat.com",
+    "contact_email": null
+  },
+  "source_url": "https://www.redhat.com/en/summit/2024",
+  "last_updated": "2025-04-24T13:08:12.004775"
+}
