@@ -1,0 +1,31 @@
+{
+  "event_name": "CDAO Sydney",
+  "dates": {
+    "start": null,
+    "end": null,
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": "Sydney",
+    "state": null,
+    "country": "Australia",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": "The 2025 agenda for CDAO Germany will be available soon, the 2024 agenda is still downloadable so you can see what type of topics were discussed.\nHear from over 35 expert speakers over 2 days of keynote presentations, panel discussions, focus sessions and unrivalled networking.",
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Corinium Global Intelligence",
+    "website": null,
+    "contact_email": "enquiries@coriniumintel.com"
+  },
+  "source_url": "https://cdao-federal.coriniumintelligence.com/download-agenda",
+  "last_updated": "2025-04-24T17:21:09.693990"
+}

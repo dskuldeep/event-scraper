@@ -1,0 +1,33 @@
+{
+  "event_name": "GamesBeat Summit",
+  "dates": {
+    "start": "2025-05-19",
+    "end": "2025-05-20",
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": "Join us in LA this May 19-20 for GamesBeat Summit 2025 as we explore how creative storytelling, community engagement, and strategic innovation are driving the next era of gaming.",
+  "topics": [
+    "Gaming"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "VentureBeat",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://venturebeat.com/events/",
+  "last_updated": "2025-04-24T16:58:17.290984"
+}

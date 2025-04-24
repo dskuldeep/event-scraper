@@ -1,0 +1,35 @@
+{
+  "event_name": "Cloud \u2013 Back to basics Ep. #1",
+  "dates": {
+    "start": "2025-04-29",
+    "end": "2025-04-29",
+    "timezone": "EST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "In line with Microsoft's Secure Future Initiative (SFI), this session will cover cloud computing, security, and resilience. Topics include on-demand usage, autoscaling, multi-region disaster recovery, and chaos engineering with Azure Chaos Studio. We'll also explore cloud infrastructure components like networking, compute, and storage, focusing on SFI's principles of secure by design, default, and secure operations.",
+  "topics": [
+    "Cloud Computing",
+    "Security",
+    "Resilience"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=2569594811",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Partners",
+  "last_updated": "2025-04-24T16:55:45.815982"
+}

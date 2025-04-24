@@ -1,0 +1,33 @@
+{
+  "event_name": "Microsoft AI Tour London",
+  "dates": {
+    "start": null,
+    "end": null,
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": "London",
+    "state": null,
+    "country": "UK",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "AI"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Tudor Rose",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.technologyrecord.com/ai/ai-events-and-conferences-in-2024-and-2025-147315",
+  "last_updated": "2025-04-24T16:58:32.450569"
+}

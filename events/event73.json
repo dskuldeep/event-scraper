@@ -1,0 +1,33 @@
+{
+  "event_name": "Microsoft 365 Community Conference\u200b",
+  "dates": {
+    "start": "2025-05-06",
+    "end": "2025-05-08",
+    "timezone": "PST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": "Microsoft 365 Community Conference\u200b",
+  "topics": [
+    "Microsoft 365"
+  ],
+  "registration": {
+    "url": "https://m365conf.com/#!/",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/surface",
+  "last_updated": "2025-04-24T16:52:16.201888"
+}

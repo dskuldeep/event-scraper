@@ -1,0 +1,33 @@
+{
+  "event_name": "AI Summit 2025",
+  "dates": {
+    "start": "2025-11-06",
+    "end": "2025-11-06",
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": "Tysons",
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "AI"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": null,
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.eventbrite.com/d/united-states/artificial-intelligence-summit/",
+  "last_updated": "2025-04-24T17:09:59.508688"
+}

@@ -1,0 +1,33 @@
+{
+  "event_name": "Future Ready AI Summit 2025",
+  "dates": {
+    "start": "2025-05-10",
+    "end": "2025-05-10",
+    "timezone": null
+  },
+  "location": {
+    "venue": "CGI",
+    "city": "Bangalore",
+    "state": null,
+    "country": "India",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "AI"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Innovation Tech Community",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.eventbrite.com/d/local/events/",
+  "last_updated": "2025-04-24T17:01:47.627905"
+}

@@ -1,0 +1,35 @@
+{
+  "event_name": "Build and extend your own agents using pro-code capabilities",
+  "dates": {
+    "start": "2025-04-29",
+    "end": "2025-04-29",
+    "timezone": "USMST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": "Join Microsoft for an in-person training, Build and extend your own agents using pro-code capabilities. This interactive partner workshop is designed to empower you with the skills to leverage AI-powered agents\u2014tools that enhance everyday productivity by utilizing large language models (LLMs).\u00a0During this workshop, you'll explore how to use these copilots as-is, extend their functionality, or create custom agents by combining natural language processing and pro-code approaches. Through hands-on learning, you\u2019ll develop the skills to build your own agents and unlock new possibilities for boosting productivity and efficiency securely.\u00a0This intermediate/advanced-level course is tailored to equip you with practical knowledge to help customers achieve their business goals with cutting-edge AI solutions.\u00a0Designed for a technical audience, including developers working to advance their expertise, this event requires basic knowledge of Microsoft 365 Copilot deployment and user enablement, Build and extend AI powered agents with Copilot Studio, and AI 102 certification are recommended as supplementary preparation.\u00a0These workshops fill up quickly, so please register soon to secure your spot. Content level: L300 Intermediate/Advanced Registration: Secure your spot promptly. Seats are limited and will be allocated on a first-come, first-served basis",
+  "topics": [
+    "AI",
+    "Copilot",
+    "Pro-Code"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=2354878292",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Partners",
+  "last_updated": "2025-04-24T16:55:45.813657"
+}

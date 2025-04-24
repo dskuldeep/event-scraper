@@ -1,0 +1,41 @@
+{
+  "event_name": "Microsoft AI School - Folge 5: Das Copilot ABC in Microsoft Teams",
+  "dates": {
+    "start": "2025-04-25",
+    "end": "2025-04-25",
+    "timezone": "WEST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Microsoft AI School \u2013 Folge 5: Das Copilot ABC in Microsoft Teams Willkommen zur f\u00fcnften Episode unseres Live-Webinars \"Microsoft AI School \u2013 Die Copilot Schule\"! Diesmal tauchen wir tief in die Welt von Microsoft Teams ein und zeigen Ihnen, wie Microsoft 365 Copilot Ihre Zusammenarbeit und Kommunikation auf ein neues Level hebt. Erleben Sie 45 Minuten geballtes KI-Wissen, praxisnahe Beispiele und wertvolle Expertentipps. Microsoft 365 Copilot in Teams: Ihre digitale Assistenz f\u00fcr effiziente Zusammenarbeit Stellen Sie sich vor: Meetings, die wie am Schn\u00fcrchen laufen, Chatverl\u00e4ufe, die perfekt zusammengefasst sind, und eine Teamkommunikation, die so effizient ist wie nie zuvor. Mit Microsoft 365 Copilot in Teams wird diese Vision Realit\u00e4t. Lernen Sie in dieser Episode, wie Sie Copilot als Ihre pers\u00f6nliche Assistenz nutzen, um Aufgaben zu automatisieren, Informationen zu b\u00fcndeln und Ihre Produktivit\u00e4t im Team zu maximieren. Die Themen: Slot 1 \u2013 Copilot-Funktionen in Microsoft Teams:\u00a0Wir pr\u00e4sentieren Ihnen die speziellen Funktionen, die Copilot in Microsoft Teams bietet. Entdecken Sie, wie Sie Meetings optimieren, Chatverl\u00e4ufe effizienter gestalten und die Zusammenarbeit im Team verbessern k\u00f6nnen. Slot 2 \u2013 Praxisbeispiele:\u00a0Anhand konkreter Anwendungsf\u00e4lle zeigen wir Ihnen, wie Sie Copilot in Teams effektiv einsetzen. Erleben Sie live, wie Sie Aufgaben automatisieren, Inhalte pr\u00e4gnant zusammenfassen und Ihre t\u00e4gliche Arbeit produktiver gestalten. Slot 3 \u2013 Prompt-Tipps zu Teams & Kommunikation:\u00a0Die richtigen Prompts sind der Schl\u00fcssel zur erfolgreichen Nutzung von Copilot. Wir verraten Ihnen wertvolle Tipps und Tricks, wie Sie mit gezielten Eingaben Besprechungsnotizen erstellen, Follow-ups automatisieren und Kommunikationsabl\u00e4ufe in Teams optimieren. Diese Expertise ist nicht nur f\u00fcr Teams relevant, sondern verbessert Ihre gesamte Kommunikation. Slot 4 \u2013 Fragen aus dem Publikum:\u00a0Haben Sie brennende Fragen zu Microsoft 365 Copilot in Teams? Stellen Sie sie live unseren Expertinnen und Experten und erhalten Sie individuelle Antworten. Wir freuen uns auf den Austausch mit Ihnen! Referenten:\u00a0Markus Widl und Alexander Eggers Pr\u00e4sentations- und Untertitelsprache:\u00a0Deutsch Melden Sie sich jetzt an und erleben Sie die Zukunft der Zusammenarbeit! Lust auf mehr?\u00a0In der n\u00e4chsten Folge erfahren Sie, wie Sie Copilot in PowerPoint einsetzen, um beeindruckende Pr\u00e4sentationen in k\u00fcrzester Zeit zu",
+  "topics": [
+    "AI",
+    "Microsoft 365 Copilot",
+    "Microsoft Teams"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=43795040413",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [
+    {
+      "name": "Markus Widl",
+      "title": null,
+      "organization": null
+    },
+    {
+      "name": "Alexander Eggers",
+      "title": null,
+      "organization": null
+    }
+  ],
+  "source_url": "https://events.microsoft.com/en-us/microsoft365",
+  "last_updated": "2025-04-24T16:49:50.455513"
+}

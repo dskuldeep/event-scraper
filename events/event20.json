@@ -1,0 +1,33 @@
+{
+  "event_name": "Microsoft Azure Virtual Training Day: Fundamentals",
+  "dates": {
+    "start": "2025-04-28",
+    "end": "2025-04-29",
+    "timezone": "WEST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "Fundamentals"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=1299730108",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Azure",
+  "last_updated": "2025-04-24T16:49:06.628666"
+}

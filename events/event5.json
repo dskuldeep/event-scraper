@@ -1,0 +1,31 @@
+{
+  "event_name": "Google Cloud Next 2025",
+  "dates": {
+    "start": "2025-04-09",
+    "end": "2025-04-11",
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "NVIDIA",
+    "website": "https://www.nvidia.com/",
+    "contact_email": null
+  },
+  "source_url": "https://www.nvidia.com/events/",
+  "last_updated": "2025-04-24T16:46:04.659226"
+}

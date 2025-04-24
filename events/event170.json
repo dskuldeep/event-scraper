@@ -1,0 +1,33 @@
+{
+  "event_name": "AI Live Summit Silicon Valley 2025",
+  "dates": {
+    "start": "2025-05-03",
+    "end": "2025-05-03",
+    "timezone": null
+  },
+  "location": {
+    "venue": "Rosewood Commons Conference Center",
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "AI"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": null,
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.eventbrite.com/d/united-states/ai-summit/",
+  "last_updated": "2025-04-24T17:07:48.876456"
+}

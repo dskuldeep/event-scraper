@@ -1,0 +1,32 @@
+{
+  "event_name": "Spring 2025 GRASP SFI: Ke Li, Simon Fraser University, \u201cThe Devil Is in the Gaps: How (Not) To Interpolate Between Discrete Points\u201d",
+  "dates": {
+    "start": "2025-04-02",
+    "end": "2025-04-02",
+    "timezone": null
+  },
+  "location": {
+    "venue": "Levine 307",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": null,
+    "virtual": true,
+    "hybrid": true
+  },
+  "description": "What do diffusion models/flow matching, Gaussian splatting and efficient transformer architectures have in common? Under the hood, they all turn a discrete set of points into a function defined everywhere. In the case of diffusion models/flow matching",
+  "topics": [],
+  "registration": {
+    "url": "https://upenn.zoom.us/j/98220304722",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [
+    {
+      "name": "Ke Li",
+      "title": null,
+      "organization": "Simon Fraser University"
+    }
+  ],
+  "source_url": "https://events.seas.upenn.edu/calendar/",
+  "last_updated": "2025-04-24T17:11:09.284399"
+}

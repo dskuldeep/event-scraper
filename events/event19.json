@@ -1,0 +1,34 @@
+{
+  "event_name": "Passez \u00e0 l'\u00e8re du cloud adaptif avec Azure",
+  "dates": {
+    "start": "2025-04-28",
+    "end": "2025-04-28",
+    "timezone": "CET"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Rejoignez-nous pour un webinaire exclusif d\u00e9di\u00e9 \u00e0 Azure Arc, la solution Microsoft qui transforme la gestion des environnements hybrides et multiclouds.Au programme :\nIntroduction \u00e0 Azure Arc : Comprendre ses principes fondamentaux et son r\u00f4le dans les environnements modernes.Focus sur Azure Arc for Servers et Azure Arc for SQL Server : Apprenez \u00e0 connecter, s\u00e9curiser et g\u00e9rer vos ressources, o\u00f9 qu\u2019elles soient.Fonctionnalit\u00e9s cl\u00e9s et avantages : D\u00e9couvrez comment Azure Arc simplifie vos op\u00e9rations, renforce la s\u00e9curit\u00e9 et optimise vos infrastructures.Architecture d\u00e9taill\u00e9e : Un aper\u00e7u technique pour comprendre les m\u00e9canismes internes d\u2019Azure Arc.D\u00e9monstrations : Voyez Azure Arc en action avec des cas d\u2019utilisation concrets.Ce webinaire est con\u00e7u pour r\u00e9pondre \u00e0 vos besoins techniques et strat\u00e9giques. Vous repartirez avec une vision claire de la valeur ajout\u00e9e d\u2019Azure Arc pour votre organisation, ainsi que des conseils pratiques pour l\u2019impl\u00e9menter.",
+  "topics": [
+    "Azure Arc",
+    "Cloud Management"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=1582036708",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Azure",
+  "last_updated": "2025-04-24T16:49:06.625364"
+}

@@ -1,0 +1,33 @@
+{
+  "event_name": "The Future of Higher Education 2025",
+  "dates": {
+    "start": "2025-05-03",
+    "end": "2025-05-03",
+    "timezone": null
+  },
+  "location": {
+    "venue": "Prestige Falcon Towers",
+    "city": "Bangalore",
+    "state": null,
+    "country": "India",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "Higher Education"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": null,
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.eventbrite.com/d/local/events/",
+  "last_updated": "2025-04-24T17:01:47.694394"
+}

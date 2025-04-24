@@ -1,0 +1,33 @@
+{
+  "event_name": "Azure webinar series: Building AI Apps: Essential Skills for Developers",
+  "dates": {
+    "start": "2025-04-30",
+    "end": "2025-06-30",
+    "timezone": "PST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Start building AI apps in the cloud today. This hands-on webinar will equip developers with the frameworks, skills, and best practices to put AI to work effectively. Through live demos, technical deep dives, and practical advice, learn how to: Build AI applications from the ground up.Use Python for AI workflows, data processing, and optimizations.Select and integrate the right data and vector store for performance and scalability.Design and manage APIs to expose AI capabilities efficiently.Choose the right type of model for real-world applications\u2014including AI agents.",
+  "topics": [
+    "AI"
+  ],
+  "registration": {
+    "url": "https://info.microsoft.com/ww-landing-building-ai-apps-essential-skills-for-developers.html?lcid=en-us",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Partners",
+  "last_updated": "2025-04-24T16:55:45.819733"
+}

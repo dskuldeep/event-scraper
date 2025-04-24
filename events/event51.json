@@ -1,0 +1,33 @@
+{
+  "event_name": "Microsoft Virtual Briefing - Cerrando Brechas de Talento en Ciberseguridad: C\u00f3mo Formar un Equipo de Seguridad Eficaz",
+  "dates": {
+    "start": "2025-04-24",
+    "end": "2025-04-24",
+    "timezone": "CAST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Overview\u00a0This event will be delivered in Spanish. Cyberattacks are becoming more sophisticated and frequent, posing a serious threat to organizations of all sizes and industries. To protect their data and assets, organizations need to have a skilled cybersecurity team that can respond effectively to emerging threats and incidents. However, finding and retaining qualified cybersecurity professionals is a challenge, as there is a global shortage of talent in this field. How can organizations overcome this skills gap and build a strong cybersecurity team?\u00a0What you will learn:\u00a0The current state and impact of the cybersecurity skills gap on organizations and the industry\u00a0The key competencies and roles that make up a successful cybersecurity team\u00a0The best practices and strategies for attracting, developing, and retaining cybersecurity talent\u00a0The benefits of using Microsoft cybersecurity solutions and training resources to enhance your team's skills and capabilities\u00a0Who should attend IT managers and leaders who are responsible for cybersecurity strategy and operations in their organization\u00a0HR managers and recruiters who are involved in hiring and retaining cybersecurity professionals\u00a0Current or aspiring cybersecurity professionals who want to learn more about the skills and opportunities in this field\u00a0These Briefings are designed to be an open platform where you can ask questions, engage in discussions, and ultimately get real-world answers that you need. Our speakers will share their expert insights providing you the opportunity to discover the solutions to take your business to the next level.\u00a0Register now to boost employee productivity in your organization in a more secure environment.\u00a0Please note this event will not be recordedIf you are under the age of 16, registration is not permitted, as event-related data is stored and this violates current data protection laws for minors. Failure to comply will result in automatic cancellation. Thank you for your understanding.",
+  "topics": [
+    "Cybersecurity"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=1671392480",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/powerplatform",
+  "last_updated": "2025-04-24T16:51:24.086824"
+}

@@ -1,0 +1,35 @@
+{
+  "event_name": "Microsoft Virtual Briefing - Cyber Resilience: Systems to withstand & quickly recover from incidents",
+  "dates": {
+    "start": "2025-04-24",
+    "end": "2025-04-24",
+    "timezone": "GMT"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Localized times:British Summer Time: 2:00PM - 3:00PM BST (UTC+1:00)Central European Summer Time: 3:00PM - 4:00PM CEST (UTC+2:00)Eastern European Summer Time: 4:00PM - 5:00PM EEST (UTC+3:00)Overview\u00a0Cyber resilience is the ability of an organization to maintain its core functions and minimize the impact of cyberattacks, while also recovering quickly and effectively from any disruption. Cyber resilience requires a holistic approach that integrates cybersecurity, business continuity, and crisis management. In this session, you will learn how Microsoft's solutions can help you build a cyber resilient culture and infrastructure in your organization.\u00a0What you will learn The key concepts and principles of cyber resilience The best practices and frameworks for implementing a cyber resilience strategy The Microsoft products and services that support cyber resilience, such as Azure Sentinel, Microsoft 365 Defender, Azure Backup, and Azure Site Recovery The benefits and challenges of cyber resilience for your organization\u00a0Who should attend IT managers and professionals who are responsible for cybersecurity, business continuity, and crisis management in their organization Business leaders and decision makers who want to understand the value and importance of cyber resilience\u00a0These Briefings are designed to be an open platform where you can ask questions, engage in discussions, and ultimately get real-world answers that you need. Our speakers will share their expert insights providing you the opportunity to discover the solutions to take your business to the next level.\u00a0Register now to boost employee productivity in your organization in a more secure environment.\u00a0If you are under the age of 16, registration is not permitted, as event-related data is stored and this violates current data protection laws for minors. Failure to comply will result in automatic cancellation. Thank you for your understanding.",
+  "topics": [
+    "Cybersecurity",
+    "Business Continuity",
+    "Crisis Management"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=1079994223",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Azure",
+  "last_updated": "2025-04-24T16:49:06.552959"
+}

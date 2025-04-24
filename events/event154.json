@@ -1,0 +1,33 @@
+{
+  "event_name": "EISA EXPO KARNATAKA 2025",
+  "dates": {
+    "start": "2025-05-09",
+    "end": "2025-05-09",
+    "timezone": null
+  },
+  "location": {
+    "venue": "palace ground",
+    "city": "Bangalore",
+    "state": null,
+    "country": "India",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "Education"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "EISA GLOBAL- EDUCATION EXPO & AWARDS 2025",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.eventbrite.com/d/local/events/",
+  "last_updated": "2025-04-24T17:01:47.695812"
+}

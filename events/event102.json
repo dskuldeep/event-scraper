@@ -1,0 +1,34 @@
+{
+  "event_name": "Azure Migrate : simplifier la migration et la modernisation d'Azure gr\u00e2ce \u00e0 une plateforme unifi\u00e9e",
+  "dates": {
+    "start": "2025-04-25",
+    "end": "2025-04-25",
+    "timezone": "CET"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "D\u00e9couvrez comment utiliser Azure Migrate pour simplifier et optimiser la migration de vos infrastructures et applications vers Azure. Vous apprendrez les meilleures pratiques, verrez des d\u00e9monstrations en direct, et recevrez des conseils pratiques pour r\u00e9ussir votre transition vers le cloud.Avez-vous des questions sp\u00e9cifiques sur Azure Migrate ou sur la migration vers Azure ? Rejoignez-nous pour des conseils pratiques et des d\u00e9monstrations en direct.",
+  "topics": [
+    "Azure Migrate",
+    "Cloud Migration"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=2264166309",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Developers",
+  "last_updated": "2025-04-24T16:54:51.793385"
+}

@@ -1,0 +1,33 @@
+{
+  "event_name": "Data Science UCSB 2025 Project Showcase",
+  "dates": {
+    "start": "2025-05-15",
+    "end": "2025-05-15",
+    "timezone": null
+  },
+  "location": {
+    "venue": "Loma Pelona Center",
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "Data Science"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": null,
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.eventbrite.com/d/united-states/deep-learning/",
+  "last_updated": "2025-04-24T17:06:59.654301"
+}

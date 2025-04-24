@@ -1,0 +1,35 @@
+{
+  "event_name": "Microsoft Discovery Hour: Secure your future with the AI-first end-to-end security platform",
+  "dates": {
+    "start": "2025-04-24",
+    "end": "2025-04-24",
+    "timezone": "EST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Engage in an in-depth discussion with Microsoft experts and industry leaders at a Microsoft Discovery Hour to connect, collaborate, and share diverse perspectives. Join us at Microsoft Discovery Hour: Secure your future with the AI-first end-to-end security platform for an overview of the current cybersecurity landscape and how to prepare your organization for AI with Zero Trust. During this event, you\u2019ll discover more about: Zero latest security trends and strategiesZero trust for the modern threat landscape\u00a0Practical insights on Zero Trust maturity\u00a0strategies Click here\u00a0for the Microsoft Event Code of Conduct. Disclaimer: Microsoft Discovery Hour: Secure your future with the AI-first end-to-end security platform is open to the public and offered at no cost. Prior to registering for the event, government employees must check with their employers to ensure that their participation is permitted and in accordance with applicable policies and laws.",
+  "topics": [
+    "Cybersecurity",
+    "AI",
+    "Zero Trust"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=4073674976",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Students",
+  "last_updated": "2025-04-24T16:56:38.700864"
+}

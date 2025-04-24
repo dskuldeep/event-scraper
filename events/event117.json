@@ -1,0 +1,34 @@
+{
+  "event_name": "ISV Service Growth Office Hours - April Edition",
+  "dates": {
+    "start": "2025-04-30",
+    "end": "2025-04-30",
+    "timezone": "CST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Growth Portfolio:\u00a0Accelerating partner success through connection, collaboration, and community.Join us for a jam-packed 45-minute session designed to deliver substantial, actionable insights, ensuring you receive the right information at the right time to enhance your success with Microsoft.\nAgenda:\nWelcomePartner WithGo To MarketBuild WithQ&A\nThis event may be recorded and shared publicly with others, including Microsoft\u2019s global customers, partners, employees, and service providers. The recording may include your name and any questions you submit to Q&A. You may submit questions anonymously.",
+  "topics": [
+    "Partner Enablement",
+    "Growth"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=2306097494",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Partners",
+  "last_updated": "2025-04-24T16:55:45.822489"
+}

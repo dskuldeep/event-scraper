@@ -1,0 +1,35 @@
+{
+  "event_name": "Microsoft Discovery Hour: Potencie la transformaci\u00f3n empresarial segura y prep\u00e1rese para la IA con Microsoft 365",
+  "dates": {
+    "start": "2025-04-24",
+    "end": "2025-04-24",
+    "timezone": "EST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "\u00danase a nosotros en esta Hora de Descubrimiento de Microsoft para explorar c\u00f3mo Microsoft 365 puede ayudar a su organizaci\u00f3n a transformar sus operaciones comerciales mientras garantiza la seguridad y preparaci\u00f3n para la adopci\u00f3n de IA. Qui\u00e9n deber\u00eda\u00a0asistir:Responsables de decisiones de ITResponsables de decisiones en materia de seguridadResponsables de decisiones empresariales en funciones de\u00a0cumplimiento, compras y cuestiones legalesDurante este evento, aprender\u00e1: C\u00f3mo Microsoft 365 puede mejorar la productividad, reducir los riesgos de seguridad y optimizar la infraestructura para un mayor rendimiento y fiabilidad. Los beneficios y desaf\u00edos de la adopci\u00f3n de IA, y c\u00f3mo Microsoft 365 puede ayudar a mitigar riesgos y preparar a su organizaci\u00f3n para la IA. C\u00f3mo construir una base segura para la adopci\u00f3n de IA con principios de confianza cero, asegurando el acceso seguro a los recursos para personas, m\u00e1quinas y cargas de trabajo.Haga clic aqu\u00ed para ver el C\u00f3digo de conducta de eventos de Microsoft.",
+  "topics": [
+    "Digital Transformation",
+    "AI",
+    "Security"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=2524580241",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/microsoft365",
+  "last_updated": "2025-04-24T16:49:50.449823"
+}

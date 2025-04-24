@@ -1,0 +1,147 @@
+{
+  "event_name": "CDAO Germany",
+  "dates": {
+    "start": "2025-04-29",
+    "end": "2025-04-30",
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": "Germany",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [
+    {
+      "name": "Stella Cabrera",
+      "title": "Member Services",
+      "organization": "EDM Council"
+    },
+    {
+      "name": "Barbara Engerer",
+      "title": "Head of Data and Analytics - Vice President Global Digital Services",
+      "organization": "BSH HOME APPLIANCES GROUP"
+    },
+    {
+      "name": "Gareth Far",
+      "title": "Head of Data Science and AI",
+      "organization": "UNICREDIT"
+    },
+    {
+      "name": "Guillaume Bodet",
+      "title": "Chief Product Officer",
+      "organization": "ACTIAN"
+    },
+    {
+      "name": "Charlotte Evans",
+      "title": "Global Director Customer Advocacy",
+      "organization": "COURSERA"
+    },
+    {
+      "name": "Dominik M\u00fcller",
+      "title": "Head of Advanced Analytics",
+      "organization": "Allianz Commercial"
+    },
+    {
+      "name": "Saru Malhotra",
+      "title": "Team Lead Data and Analytics Strategy",
+      "organization": "mobile.de"
+    },
+    {
+      "name": "Mark Zakhvatkin",
+      "title": "Director AI & Data",
+      "organization": "IU GROUP"
+    },
+    {
+      "name": "Andrew Spires",
+      "title": "EMEA Data Integrity Lead",
+      "organization": "TRICENTIS"
+    },
+    {
+      "name": "Olga Ivina",
+      "title": "Global Head of Data Science Engineering",
+      "organization": "MICROSOFT"
+    },
+    {
+      "name": "Dr. Andreas Hamprecht",
+      "title": "CIO/CDO",
+      "organization": "DEUTSCHE BAHN"
+    },
+    {
+      "name": "Marcin Nizinski",
+      "title": "Head of IT Audit and Data Analytics in Assurance",
+      "organization": "SIEMENS ENERGY"
+    },
+    {
+      "name": "Aleksejs Plotnikovs",
+      "title": "Founder of chiefdata.ai, and former Lead of Data & AI Strategy",
+      "organization": "Microsoft"
+    },
+    {
+      "name": "Alexander Woellwarth-Lauterburg",
+      "title": "Vice President of AI",
+      "organization": "Rhapsody Media Group"
+    },
+    {
+      "name": "Michael Br\u00fcdgam",
+      "title": "Head of Division Center of Excellence",
+      "organization": "ENERCON"
+    },
+    {
+      "name": "Pier Martin",
+      "title": "Vice President, Data and Analytics",
+      "organization": "ZEAL Network SE"
+    },
+    {
+      "name": "Maximilian Ehrlich",
+      "title": "Director Data & Insights",
+      "organization": "TONIES"
+    },
+    {
+      "name": "Dr. Christian Essling",
+      "title": "Global Head of Data and AI",
+      "organization": "E. ON Technology"
+    },
+    {
+      "name": "Francesco Di Costanzo",
+      "title": "CEO",
+      "organization": "JAJA FINANCE"
+    },
+    {
+      "name": "Valeriy Arsentyev",
+      "title": "Head of Data",
+      "organization": "HUMANOO"
+    },
+    {
+      "name": "Sebastian Schwarz",
+      "title": "Head of Data & AI \u2013 Customer Solutions",
+      "organization": "E. ON Technology"
+    },
+    {
+      "name": "Tim Renner",
+      "title": "Head of Business Analytics",
+      "organization": "KROMI Logistik GmbH"
+    },
+    {
+      "name": "Sandeep Murali",
+      "title": "Global Director of Data Excellence and Business Analytics",
+      "organization": "MUNDIPHARMA"
+    },
+    {
+      "name": "Shyam Arumugaswamy",
+      "title": "Data Engineer",
+      "organization": "UNITE"
+    }
+  ],
+  "source_url": "https://cdao-germany.coriniumintelligence.com/schedule",
+  "last_updated": "2025-04-24T17:16:36.952674"
+}

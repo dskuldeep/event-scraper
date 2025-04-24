@@ -1,0 +1,35 @@
+{
+  "event_name": "Microsoft Virtual Briefing - Understanding M365 Copilot Agents & Copilot Studio",
+  "dates": {
+    "start": "2025-04-30",
+    "end": "2025-04-30",
+    "timezone": "CST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Microsoft 365 Copilot combines cutting-edge AI technologies to deliver a smarter, more efficient workplace. This session will demystify the core components of Copilot, focusing on the role of Copilot Agents and Copilot Studio in enabling personalized and adaptive AI experiences. Learn how Copilot Agents streamline workflows by integrating seamlessly into apps like Word, Excel, and Teams. Discover how Copilot Studio empowers businesses to customize AI interactions, tailoring solutions to fit specific needs and processes. By attending, you\u2019ll gain a deeper understanding of how these tools can drive meaningful productivity gains across your organization.What You Will Learn:The architecture and functionality of M365 Copilot Agents.Understand how Copilot Agents operate within Microsoft 365 applications, providing real-time assistance and suggestions to improve productivity. Learn how these agents harness data and AI to adapt to user behavior and optimize workflows.How Copilot Studio enables customization for your organization\u2019s workflows.Discover how Copilot Studio allows you to build and customize AI prompts, workflows, and templates to align with specific business needs. Learn practical techniques to fine-tune the AI experience for your unique organizational processes.Real-world examples of AI-driven productivity enhancements.Explore real-world scenarios where Copilot has transformed productivity by automating repetitive tasks, summarizing data, and improving collaboration. Learn how these examples can inspire AI integration in your own organization.\nThese Briefings are designed to be an open platform where you can ask questions, engage in discussions, and ultimately get real-world answers that you need. Our speakers will share their expert insights providing you the opportunity to discover the solutions to take your business to the next level.Who should attend:\nIT & Business leaders who are responsible for making decisionsIT professionals who manage their organizations infrastructure\u00a0Important: This event may be recordedIf you are under the age of 16, registration is not permitted, as event-related data is stored and this violates current data protection laws for minors. Failure to comply will result in automatic cancellation. Thank you for your understanding",
+  "topics": [
+    "Microsoft 365 Copilot",
+    "Copilot Agents",
+    "Copilot Studio"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=1067477775",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/surface",
+  "last_updated": "2025-04-24T16:52:16.199451"
+}

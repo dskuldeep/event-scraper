@@ -1,0 +1,33 @@
+{
+  "event_name": "Gen AI  X Summit | ODSC East 2025",
+  "dates": {
+    "start": "2025-05-13",
+    "end": "2025-05-13",
+    "timezone": null
+  },
+  "location": {
+    "venue": "Boston Convention and Exhibition Center",
+    "city": "Boston",
+    "state": null,
+    "country": "United States",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "AI"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Open Data Science",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.eventbrite.com/d/united-states/artificial-intelligence-summit/",
+  "last_updated": "2025-04-24T17:09:59.507065"
+}

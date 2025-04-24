@@ -1,0 +1,35 @@
+{
+  "event_name": "Threat Protection and Incident Response with Sentinel and Copilot for Security",
+  "dates": {
+    "start": "2025-04-30",
+    "end": "2025-04-30",
+    "timezone": "USMST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": "Join Microsoft for an in-person training, AI-powered threat protection with Microsoft Sentinel and Microsoft Security Copilot. During this in-depth, hands-on workshop, you\u2019ll uncover the knowledge and skills to harness the full power of Microsoft security products. Turning to real-world scenarios, experts will guide you in using cutting-edge tools and features, like Security Copilot, Sentinel, Microsoft Defender for Cloud, Microsoft Defender XDR, and more. You\u2019ll gain access to partner resources to strengthen your organization\u2019s value proposition and guide your customers in strengthening their own security strategies, including comprehensive threat intelligence, streamlined security operations, and reduction of data-related vulnerabilities. This event is designed for a mixed audience of experts, including security analysts, SOC consultants, cloud architects, implementation consultants, and technical specialists. We recommend an audience competency of Level 300-Expert. These workshops fill up quickly, so please register soon to secure your spot. Seats are limited and available on a first-come, first-served basis. Content level: Expert Registration: Secure your spot promptly. Seats are limited and will be allocated on a first-come, first-served basis.",
+  "topics": [
+    "Security",
+    "Threat Detection",
+    "Incident Response"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=2015056098",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Partners",
+  "last_updated": "2025-04-24T16:55:45.821625"
+}

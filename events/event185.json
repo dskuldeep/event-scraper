@@ -1,0 +1,31 @@
+{
+  "event_name": "CDAO UK",
+  "dates": {
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": "London",
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Corinium Global Intelligence",
+    "website": null,
+    "contact_email": "enquiries@coriniumintel.com"
+  },
+  "source_url": "https://cdao-germany.coriniumintelligence.com/agenda-download",
+  "last_updated": "2025-04-24T17:17:23.058083"
+}

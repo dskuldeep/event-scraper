@@ -1,0 +1,34 @@
+{
+  "event_name": "Transform and Innovate: Getting Your Infrastructure AI-Ready",
+  "dates": {
+    "start": "2025-04-24",
+    "end": "2025-04-24",
+    "timezone": "EST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "By 2025, 90% of companies will use AI to boost productivity, collaboration, and innovation.1 Ensure that your service delivery platform is AI-ready to accelerate adoption and expand your customer base.\u00a0Why Microsoft Azure? Microsoft Azure is designed to maximize performance and deliver a high return on investment (ROI), no matter where you are on your cloud journey. In this interactive webinar, experts will share actionable steps to help you get your infrastructure ready for modernization and AI adoption. You\u2019ll learn about Azure offerings and how Microsoft can support you to be AI-ready. You\u2019ll also learn from real-life case studies and get answers to your questions.\u00a0You\u2019ll also discover how to:\u00a0Expand your ISV product on Azure or SaaS businessProtect your business with AI-driven security solutions that support multicloud operations and comply with data regulationsAccelerate innovation with modern infrastructure",
+  "topics": [
+    "AI",
+    "Cloud Infrastructure"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=1969217866",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Azure",
+  "last_updated": "2025-04-24T16:49:06.616647"
+}

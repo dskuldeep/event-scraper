@@ -1,0 +1,33 @@
+{
+  "event_name": "Test Automation Summit | Bangalore| 2025",
+  "dates": {
+    "start": "2025-06-27",
+    "end": "2025-06-27",
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": "Bengaluru",
+    "state": null,
+    "country": "India",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "Test Automation"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "TESTINGMIND",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.eventbrite.com/d/local/events/",
+  "last_updated": "2025-04-24T17:01:47.697992"
+}

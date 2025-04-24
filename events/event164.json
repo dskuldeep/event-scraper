@@ -1,0 +1,33 @@
+{
+  "event_name": "2025 Ohio Tech Summit (powered by OhioX)",
+  "dates": {
+    "start": "2025-05-08",
+    "end": "2025-05-08",
+    "timezone": null
+  },
+  "location": {
+    "venue": "Ohio Union",
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "Tech"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "OhioX",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.eventbrite.com/d/united-states/tech-conferences/",
+  "last_updated": "2025-04-24T17:06:20.432654"
+}

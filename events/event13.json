@@ -1,0 +1,34 @@
+{
+  "event_name": "Microsoft Virtual Briefing - Defender for Cloud Workload Protection Series: Containers",
+  "dates": {
+    "start": "2025-04-24",
+    "end": "2025-04-24",
+    "timezone": "GMT"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Localized times:British Summer Time: 2:00PM - 3:00PM BST (UTC+1:00)Central European Summer Time: 3:00PM - 4:00PM CEST (UTC+2:00)Eastern European Summer Time: 4:00PM - 5:00PM EEST (UTC+3:00)We are thrilled to invite you to this exclusive event where you will have a unique opportunity to sit down with our fantastic subject matter experts to discover more on how Microsoft can revolutionize your work processes and empower your organization to achieve more!What you\u2019ll learn:\nInsights into the latest trends and important topicsMicrosoft\u2019s latest solution offeringsThese Briefings are designed to be an open platform where you can ask questions, engage in discussions, and ultimately get real-world answers that you need. Our speakers will share their expert insights providing you the opportunity to discover the solutions to take your business to the next level.Who should attend:\nIT & Business leaders who are responsible for making decisionsIT professionals who manage their organizations infrastructurePlease note this event may be recorded.If you are under the age of 16, registration is not permitted, as event-related data is stored and this violates current data protection laws for minors. Failure to comply will result in automatic cancellation. Thank you for your understanding.",
+  "topics": [
+    "Cloud Workload Protection",
+    "Containers"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=3960631355",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Azure",
+  "last_updated": "2025-04-24T16:49:06.605757"
+}

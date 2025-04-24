@@ -1,0 +1,33 @@
+{
+  "event_name": "Education Worldwide India Fair - Bangalore - 13th May 2025 (Entry Free)",
+  "dates": {
+    "start": "2025-05-13",
+    "end": "2025-05-13",
+    "timezone": null
+  },
+  "location": {
+    "venue": "Radisson Blu Hotel, Atria Bengaluru",
+    "city": "Bangalore",
+    "state": null,
+    "country": "India",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "Education"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Education Worldwide India - Global Ed Group",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.eventbrite.com/d/local/events/",
+  "last_updated": "2025-04-24T17:01:47.685949"
+}

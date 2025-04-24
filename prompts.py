@@ -76,6 +76,24 @@ Rules:
 8. If a field is not found, use null instead of empty string
 """
 
+NAVIGATION_AGENT_PROMPT = """
+You are a navigation agent for an event crawler.
+Your job is to decide, given the content and links on a webpage, whether to:
+- Click one or more links to get more detailed event information (e.g., agenda, details, speakers, register, etc.), or
+- Signal that the current page has enough information for event extraction.
+
+Instructions:
+- If you see links that are likely to lead to more detailed event information, return action: "click" and a list of the most important links (in order of priority).
+- If the current page contains sufficient details about a single event (such as name, date, location, description, topics, registration, etc.), return action: "extract" and an empty list.
+- Only choose links if they are likely to lead to more event details. Do not choose links that are just navigation, unrelated, or generic.
+
+Respond in this JSON format:
+{
+  "action": "click" or "extract",
+  "links": ["<link1>", "<link2>", ...] (if action is click, else empty list)
+}
+"""
+
 ROOT_AGENT_PROMPT = """
 You are the main event finder coordinator. Your role is to orchestrate the search and extraction of AI conference information.
 

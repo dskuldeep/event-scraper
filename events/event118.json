@@ -1,0 +1,34 @@
+{
+  "event_name": "EMEA Q4 Partner Enablement Connection",
+  "dates": {
+    "start": "2025-04-30",
+    "end": "2025-04-30",
+    "timezone": "PST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "We are delighted to invite you to the EMEA Q4 Partner Enablement Connection! This event will equip you with the latest skilling updates, insights, and opportunities to stay ahead in a rapidly evolving market.\nJoin us to enhance your expertise, unlock new growth opportunities, and strengthen your impact in the business.\nRegister now to stay informed and take your capacity and capability to the next level!",
+  "topics": [
+    "Partner Enablement",
+    "Skills"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=1386234504",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Partners",
+  "last_updated": "2025-04-24T16:55:45.823359"
+}

@@ -1,0 +1,34 @@
+{
+  "event_name": "Microsoft Discovery Hour: Unifique suas opera\u00e7\u00f5es de seguran\u00e7a com uma plataforma baseada em IA",
+  "dates": {
+    "start": "2025-04-24",
+    "end": "2025-04-24",
+    "timezone": "BRT"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Explore as mais recentes solu\u00e7\u00f5es Microsoft Cloud e demonstra\u00e7\u00f5es de produtos para gerar novos casos de uso de tecnologia em um Microsoft Discovery Hour gratuito. Participe do Microsoft Discovery Hour: Unifique suas opera\u00e7\u00f5es de seguran\u00e7a com uma plataforma baseada em IA para aprender como transformar suas opera\u00e7\u00f5es de seguran\u00e7a (SecOps) com uma solu\u00e7\u00e3o incorporada e uma experi\u00eancia de analista com tecnologia de IA. As solu\u00e7\u00f5es de seguran\u00e7a da Microsoft oferecem \u00e0s equipes de SecOps verdadeira visibilidade de ponta a ponta para detectar, investigar e responder a amea\u00e7as cibern\u00e9ticas.\nDurante esse evento, voc\u00ea descobrir\u00e1 mais sobre:Usando uma solu\u00e7\u00e3o de seguran\u00e7a que combina informa\u00e7\u00f5es de seguran\u00e7a e gerenciamento de eventos, detec\u00e7\u00e3o e resposta estendidas, intelig\u00eancia de amea\u00e7as, gerenciamento de postura e IA generativaCapacitar SecOps para proteger v\u00e1rios ambientes com visibilidade abrangente de amea\u00e7asCasos de uso da vida real para prote\u00e7\u00e3o aprimorada contra amea\u00e7as\nVeja o que voc\u00ea pode esperar:APRESENTA\u00c7\u00c3O DO EVENTO Briefing sobre o cen\u00e1rio de amea\u00e7asCentros de opera\u00e7\u00f5es de seguran\u00e7a hojeTransformar SecOps com uma plataforma unificadaCen\u00e1rios de amea\u00e7aEvid\u00eancias e hist\u00f3rias de clientes\nClique aqui para ver o C\u00f3digo de Conduta para Eventos da Microsoft.\nAviso: Microsoft Discovery Hour: Unifique suas opera\u00e7\u00f5es de seguran\u00e7a com uma plataforma baseada em IA \u00e9 aberto ao p\u00fablico e oferecido sem custo. Antes de se inscrever no evento, os funcion\u00e1rios p\u00fablicos devem verificar com seus empregadores para garantir que sua participa\u00e7\u00e3o seja permitida e esteja de acordo com as pol\u00edticas e leis aplic\u00e1veis.",
+  "topics": [
+    "Security Operations",
+    "AI"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=512121372",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Students",
+  "last_updated": "2025-04-24T16:56:38.697190"
+}

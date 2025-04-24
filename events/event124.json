@@ -1,0 +1,33 @@
+{
+  "event_name": "\u200b\u200bProteger la Puerta Delantera y Trasera de su Identidad",
+  "dates": {
+    "start": "2025-04-24",
+    "end": "2025-04-24",
+    "timezone": "CST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Las filtraciones de datos son costosas y generalizadas, con una media de 4,45 millones de d\u00f3lares en 20231 y un 83% de las empresas se enfrentan a la probabilidad de sufrir una infracci\u00f3n.2 A pesar de muchos ataques cibern\u00e9ticos que comienzan con violaciones de identidad, muchas organizaciones a\u00fan no han implementado o utilizado completamente su software de seguridad de identidad.Es probable que su organizaci\u00f3n ya posea soluciones de seguridad Microsoft, como Microsoft Entra ID P2 y Microsoft Defender for Identity (MDI), pero es posible que no est\u00e9 aprovechando al m\u00e1ximo sus capacidades para mejorar su posici\u00f3n de seguridad y maximizar su inversi\u00f3n. Descubra c\u00f3mo la mejora de sus herramientas en la nube y en las instalaciones puede proporcionar una protecci\u00f3n s\u00f3lida de una manera sencilla para proteger su identidad en la puerta delantera y trasera.\u00a0\u00danase a este seminario web dirigido por los arquitectos de Microsoft FastTrack para tener la oportunidad exclusiva de obtener respuestas expertas a sus preguntas y para:\u00a0Eval\u00fae su postura de seguridad de identidad y comprenda las amenazas de identidad prevalentesAutomatice la detecci\u00f3n y la respuesta a amenazas de identidad avanzadas, tanto en las instalaciones como en la nube, lo que permite la interrupci\u00f3n de los ataques en tiempo realExplore las opciones de implementaci\u00f3n para MDI y Microsoft Entra ID P2 a trav\u00e9s de demostraciones informativas, aprovechando el software que ya poseeReg\u00edstrese ahora para obtener informaci\u00f3n sobre c\u00f3mo proteger su organizaci\u00f3n.1,2 Costo de un informe de violaci\u00f3n de datos 2023, IBM, 2023",
+  "topics": [
+    "Identity Security"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=929405128",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Students",
+  "last_updated": "2025-04-24T16:56:38.693679"
+}

@@ -1,0 +1,31 @@
+{
+  "event_name": "UEC Member Summit 2025",
+  "dates": {
+    "start": "2025-04-28",
+    "end": "2025-05-01",
+    "timezone": "MDT | GMT-6"
+  },
+  "location": {
+    "venue": null,
+    "city": "Westminster",
+    "state": "Colorado",
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": "The Sched app allows you to build your schedule but is not a substitute for your event registration. You must be registered for UEC Member Summit 2025 to participate in the sessions.",
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "The Linux Foundation",
+    "website": "https://www.linuxfoundation.org/",
+    "contact_email": null
+  },
+  "source_url": "https://events.linuxfoundation.org/uec-member-summit/program/schedule/",
+  "last_updated": "2025-04-24T16:46:38.804473"
+}

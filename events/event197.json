@@ -1,0 +1,61 @@
+{
+  "event_name": "CDAO Fed Ready Summit",
+  "dates": {
+    "start": "2025-05-07",
+    "end": "2025-05-07",
+    "timezone": null
+  },
+  "location": {
+    "venue": "Convene 1201 Wilson Blvd",
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "Data",
+    "Analytics",
+    "AI"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [
+    {
+      "name": "Natalie Evans Harris",
+      "title": "MD State Chief Data Officer",
+      "organization": "STATE OF MARYLAND"
+    },
+    {
+      "name": "Richard Patterson",
+      "title": "Chief Data and AI Officer",
+      "organization": "Bureau of the Comptroller and Global Financial Services, U.S. DEPARTMENT OF STATE"
+    },
+    {
+      "name": "Hengyi Hu, Ph.D.",
+      "title": "Chief Data Analytics Officer",
+      "organization": "U.S. CONSUMER PRODUCT SAFETY COMMISSION"
+    },
+    {
+      "name": "LaShonda C. Henderson",
+      "title": "Data Evangelist",
+      "organization": null
+    },
+    {
+      "name": "Jennifer Luik",
+      "title": "Deputy Division Director, Portfolio Management Division, Chief Data Officer Directorate (CDOD",
+      "organization": null
+    },
+    {
+      "name": "Patrick McLoughlin",
+      "title": "Executive Director, MD THINK",
+      "organization": "STATE OF MARYLAND"
+    }
+  ],
+  "source_url": "https://cdao-federal.coriniumintelligence.com/agenda",
+  "last_updated": "2025-04-24T17:20:42.890102"
+}

@@ -1,0 +1,31 @@
+{
+  "event_name": "TieCon",
+  "dates": {
+    "start": "2025-04-30",
+    "end": "2025-05-02",
+    "timezone": null
+  },
+  "location": {
+    "venue": "Santa Clara Convention Center",
+    "city": "San Jose",
+    "state": "CA",
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "NVIDIA",
+    "website": "https://www.nvidia.com/",
+    "contact_email": null
+  },
+  "source_url": "https://www.nvidia.com/events/",
+  "last_updated": "2025-04-24T16:46:04.653680"
+}

@@ -1,0 +1,33 @@
+{
+  "event_name": "Annual BROOKLYN TECH EXPO - JUNE 3, 2025",
+  "dates": {
+    "start": "2025-06-03",
+    "end": "2025-06-03",
+    "timezone": null
+  },
+  "location": {
+    "venue": "26 Bridge St",
+    "city": "Brooklyn",
+    "state": "NY",
+    "country": "United States",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "Tech"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": null,
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.eventbrite.com/d/united-states/tech-conferences/",
+  "last_updated": "2025-04-24T17:06:20.394278"
+}

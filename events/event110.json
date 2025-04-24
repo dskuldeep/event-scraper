@@ -1,0 +1,37 @@
+{
+  "event_name": "Azure webinar series: Extend and Innovate with SAP BTP on Azure",
+  "dates": {
+    "start": "2025-04-29",
+    "end": "2025-04-29",
+    "timezone": "PST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Discover how deploying SAP AI services in Microsoft Azure enables seamless integration and AI-driven innovation. This webinar explores the general benefits of SAP BTP on Azure with a focus on the topics of AI, security and identity.\nKey takeaways:\nBenefits of running SAP BTP on Azure, including scalability and joint innovationsLive demo and reference architecture insightsResearch-backed validation of SAP BTP on Azure\u2019s impactQ&A session with experts",
+  "topics": [
+    "SAP",
+    "Azure",
+    "AI",
+    "Security",
+    "Identity"
+  ],
+  "registration": {
+    "url": "https://info.microsoft.com/ww-landing-extend-and-innovate-with-sap-btp-on-azure.html?lcid=en-us",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Partners",
+  "last_updated": "2025-04-24T16:55:45.811979"
+}

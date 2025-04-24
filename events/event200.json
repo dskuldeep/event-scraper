@@ -1,0 +1,31 @@
+{
+  "event_name": "CDAO Fed Ready Summit 2025",
+  "dates": {
+    "start": null,
+    "end": null,
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": "To qualify as a participant, you must be a senior-level data & analytics professional from a U.S.-based government agency or organization. Those working at a solution provider company or consultancy do NOT qualify for participation.",
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Corinium Global Intelligence",
+    "website": null,
+    "contact_email": "inquiries@coriniumintel.com"
+  },
+  "source_url": "https://cdao-federal.coriniumintelligence.com/register",
+  "last_updated": "2025-04-24T17:22:28.939249"
+}

@@ -1,0 +1,34 @@
+{
+  "event_name": "Exclusive Event: Microsoft Security Partner Roundtable",
+  "dates": {
+    "start": "2025-05-05",
+    "end": "2025-05-05",
+    "timezone": "AST"
+  },
+  "location": {
+    "venue": "Microsoft Offices",
+    "city": "Riyadh",
+    "state": null,
+    "country": "Saudi Arabia",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": "Join us for an exclusive\u00a0Microsoft Security Partner Roundtable\u00a0with\u00a0Aarti Borkar, Corporate Vice President of Security, Customer Success, and Incident Response at Microsoft.\nThis interactive session, taking place at\u00a0Microsoft Offices, Riyadh, Saudi Arabia, offers a unique opportunity to engage directly with Microsoft leadership, discuss key security trends, and gain insights into the latest advancements in Microsoft security solutions.",
+  "topics": [
+    "Security"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=365596950",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [
+    {
+      "name": "Aarti Borkar",
+      "title": "Corporate Vice President of Security, Customer Success, and Incident Response",
+      "organization": "Microsoft"
+    }
+  ],
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Partners",
+  "last_updated": "2025-04-24T16:55:45.835912"
+}

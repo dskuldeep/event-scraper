@@ -1,0 +1,31 @@
+{
+  "event_name": "Alibaba Cloud Summit",
+  "dates": {
+    "start": null,
+    "end": null,
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Alibaba Cloud",
+    "website": "https://www.alibabacloud.com/",
+    "contact_email": null
+  },
+  "source_url": "https://www.alibabacloud.com/blog/a-list-of-ai-conferences-in-2024-and-beyond_661738",
+  "last_updated": "2025-04-24T17:02:23.954302"
+}

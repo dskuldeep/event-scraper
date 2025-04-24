@@ -1,0 +1,33 @@
+{
+  "event_name": "App in a Day - Koenig Solutions - Malaysia",
+  "dates": {
+    "start": "2025-04-29",
+    "end": "2025-04-29",
+    "timezone": "SGT"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": "Malaysia",
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "Apps"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=379341751",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Koenig Solutions",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/powerplatform",
+  "last_updated": "2025-04-24T16:51:24.112838"
+}

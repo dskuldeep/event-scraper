@@ -1,0 +1,31 @@
+{
+  "event_name": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "HIMSS",
+    "website": "https://www.himss.org/",
+    "contact_email": null
+  },
+  "source_url": "https://www.himss.org/events-overview/european-health-conference-and-exhibition/",
+  "last_updated": "2025-04-24T17:14:30.757623"
+}

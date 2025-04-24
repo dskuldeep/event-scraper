@@ -1,0 +1,33 @@
+{
+  "event_name": null,
+  "dates": {
+    "start": null,
+    "end": null,
+    "timezone": "CT"
+  },
+  "location": {
+    "venue": null,
+    "city": "Argonne",
+    "state": "IL",
+    "country": "USA",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": "The ALCF is committed to providing training and outreach opportunities that prepare researchers to efficiently use its leadership computing systems, while also cultivating a diverse and skilled HPC workforce for the future.",
+  "topics": [
+    "HPC"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Argonne Leadership Computing Facility",
+    "website": "https://www.alcf.anl.gov/",
+    "contact_email": "support@alcf.anl.gov"
+  },
+  "source_url": "https://www.alcf.anl.gov/support/training/events",
+  "last_updated": "2025-04-24T17:05:22.106971"
+}

@@ -1,0 +1,33 @@
+{
+  "event_name": "2nd Annual Georgia AI Summit!",
+  "dates": {
+    "start": "2025-05-21",
+    "end": "2025-05-21",
+    "timezone": null
+  },
+  "location": {
+    "venue": "Atlanta Tech Park",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "United States",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "AI"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": null,
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.eventbrite.com/d/united-states/artificial-intelligence-summit/",
+  "last_updated": "2025-04-24T17:09:59.501939"
+}

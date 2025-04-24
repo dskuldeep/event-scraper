@@ -1,0 +1,34 @@
+{
+  "event_name": "Spring 2025 Lecture in Climate Data Science: ABIGAIL BODNER",
+  "dates": {
+    "start": "2025-05-15",
+    "end": "2025-05-15",
+    "timezone": null
+  },
+  "location": {
+    "venue": "Columbia Innovation Hub - Tang Family Hall",
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "Climate Data Science"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [
+    {
+      "name": "ABIGAIL BODNER",
+      "title": null,
+      "organization": null
+    }
+  ],
+  "source_url": "https://www.eventbrite.com/d/united-states/deep-learning/",
+  "last_updated": "2025-04-24T17:06:59.676327"
+}

@@ -1,0 +1,34 @@
+{
+  "event_name": "AI Impact Tour: Quantum Computing: How Close Are We?",
+  "dates": {
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": "New York City",
+    "state": "NY",
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "AI",
+    "Quantum Computing"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "VentureBeat",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://venturebeat.com/events/",
+  "last_updated": "2025-04-24T16:58:17.300570"
+}

@@ -1,0 +1,34 @@
+{
+  "event_name": "Microsoft Security Immersion Event: Shadow Hunter",
+  "dates": {
+    "start": "2025-04-24",
+    "end": "2025-04-24",
+    "timezone": "CST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Whether you\u2019re a chief security officer or an on-the-ground security professional, defending against increasingly complex and sophisticated cyberattacks is a crucial skill.At this gamified, interactive event, you\u2019ll become a cybersecurity analyst tasked with finding an attacker who has gained network access through a security camera in your office\u2019s building. This practical experience will expand your security expertise, preparing you to detect threats and help secure hybrid cloud environments.As you track down the attacker, you\u2019ll learn how to:\nCheck the security posture of your cloud resources using Microsoft Defender for CloudMonitor risky workloads with limited visibility, containers, servers, and storage servicesDetect threats and resolve incidents with Microsoft SentinelRegister now to strengthen your cybersecurity skills with practical experience.",
+  "topics": [
+    "Cybersecurity",
+    "Cloud Security"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=864958878",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/microsoft365",
+  "last_updated": "2025-04-24T16:49:50.445234"
+}

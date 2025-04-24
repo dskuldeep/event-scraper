@@ -1,0 +1,31 @@
+{
+  "event_name": "CDAO Sydney",
+  "dates": {
+    "start": null,
+    "end": null,
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": "Sydney",
+    "state": null,
+    "country": "Australia",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Corinium Global Intelligence",
+    "website": null,
+    "contact_email": "enquiries@coriniumintel.com"
+  },
+  "source_url": "https://cdao-syd.coriniumintelligence.com/download-the-agenda",
+  "last_updated": "2025-04-24T17:19:14.404265"
+}

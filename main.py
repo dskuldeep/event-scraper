@@ -32,6 +32,7 @@ from utils import (
     EventProcessor
 )
 from prompts import SEARCH_AGENT_PROMPT, EXTRACTION_AGENT_PROMPT
+from navigation_agent import NavigationAgent
 
 CRAWLED_LINKS_FILE = "crawled_links.json"
 
@@ -78,10 +79,34 @@ class EventFinder:
         self.url_manager = URLManager()
         self.doc_collector = DocumentCollector()
         self.event_processor = EventProcessor(self.doc_collector, self.event_store)
+        # Maintain a persistent queue file
+        self.QUEUE_FILE = "url_queue.json"
+        self._load_url_queue()
         
         # Initialize webdriver
         self.driver = setup_webdriver()
     
+    def _save_url_queue(self):
+        """Save the current URL queue to a JSON file."""
+        try:
+            with open(self.QUEUE_FILE, 'w') as f:
+                json.dump(list(self.url_manager.url_queue), f, indent=2)
+        except Exception as e:
+            logger.error(f"Failed to save URL queue: {str(e)}")
+
+    def _load_url_queue(self):
+        """Load the URL queue from a JSON file if it exists."""
+        if os.path.exists(self.QUEUE_FILE):
+            try:
+                with open(self.QUEUE_FILE, 'r') as f:
+                    urls = json.load(f)
+                    for url in urls:
+                        if url not in self.url_manager.url_queue:
+                            self.url_manager.url_queue.append(url)
+                logger.info(f"Loaded {len(urls)} URLs into queue from {self.QUEUE_FILE}")
+            except Exception as e:
+                logger.error(f"Failed to load URL queue: {str(e)}")
+
     def search_events(self, query: str) -> List[str]:
         """Use search agent to find event URLs."""
         logger.info(f"🔍 Searching for: {query}")
@@ -97,6 +122,7 @@ class EventFinder:
             session_id=SESSION_ID,
             new_message=content
         )
+        time.sleep(2)  # Wait to avoid LLM rate limits
         
         for msg in response:
             if msg.is_final_response():
@@ -114,34 +140,36 @@ class EventFinder:
                 return
             soup = BeautifulSoup(page_source, 'lxml')
             title = soup.title.string if soup.title else ""
-            # Add to document collector
+            text_content = soup.get_text(separator='\n', strip=True)
+            links = [a.get('href') for a in soup.find_all('a', href=True)]
+            # Use NavigationAgent to decide next action
+            nav_agent = NavigationAgent()
+            decision = nav_agent.decide(url, title, text_content, links)
+            time.sleep(2)  # Wait to avoid LLM rate limits
+            if decision["action"] == "click" and decision["links"]:
+                # Add important links to the front of the queue (priority)
+                for link in reversed(decision["links"]):
+                    self.url_manager.url_queue.appendleft(link)
+                logger.info(f"🔗 Navigation agent prioritized links: {decision['links']}")
+                # Do not extract yet, just return (the prioritized links will be processed next)
+                return
+            # If action is extract, proceed as before
             self.doc_collector.add_document(
                 url=url,
                 page_source=page_source,
                 title=title,
                 metadata={"crawl_time": datetime.now().isoformat()}
             )
-            # Extract and store event info immediately (for this link only)
             unprocessed_docs = self.doc_collector.get_unprocessed_documents()
             if unprocessed_docs:
                 doc = unprocessed_docs[0]
                 try:
                     self.event_processor.process_documents()
+                    time.sleep(2)  # Wait to avoid LLM rate limits
                 except Exception as e:
                     logger.error(f"Extraction error for {url}: {str(e)}")
-            # Mark this link as crawled in a separate JSON file
             self._mark_crawled_link(url)
-            # Find and process additional event URLs on the page (breadth-first)
-            new_links = []
-            for link in soup.find_all('a', href=True):
-                href = link['href']
-                if any(term in href.lower() for term in ['2025', 'conference', 'event', 'summit']):
-                    self.url_manager.add_urls([href])
-                    new_links.append(href)
-            for new_url in new_links:
-                next_url = self.url_manager.get_next_url()
-                if next_url:
-                    self.process_url_and_extract(next_url, depth=depth+1, max_depth=max_depth)
+            self._save_url_queue()
         except Exception as e:
             logger.error(f"Error processing URL {url}: {str(e)}")
 
@@ -164,7 +192,7 @@ class EventFinder:
     def run(self):
         """Main event finding loop with recursive extraction and a 100-link limit for debugging."""
         link_count = 0
-        max_links = 100  # Set to a lower number for debugging
+        max_links = 1000  # Set to a lower number for debugging
         try:
             for region, keyword in itertools.product(REGIONS, SEARCH_KEYWORDS):
                 if link_count >= max_links:
@@ -173,6 +201,7 @@ class EventFinder:
                 query = f"{keyword} in {region}"
                 urls = self.search_events(query)
                 self.url_manager.add_urls(urls)
+                self._save_url_queue()
                 while self.url_manager.has_urls() and link_count < max_links:
                     url = self.url_manager.get_next_url()
                     if url:
@@ -181,6 +210,7 @@ class EventFinder:
                         logger.info(f"🔢 Processed {link_count}/{max_links} links.")
                         time.sleep(1)  # Rate limiting
         finally:
+            self._save_url_queue()
             self.driver.quit()
 
 if __name__ == "__main__":

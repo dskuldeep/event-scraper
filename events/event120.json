@@ -1,0 +1,34 @@
+{
+  "event_name": "Technical Workshop Implementing Azure VMware Solution (AVS)",
+  "dates": {
+    "start": "2025-05-01",
+    "end": "2025-05-01",
+    "timezone": "USMST"
+  },
+  "location": {
+    "venue": null,
+    "city": "Santa Clara",
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": "Join us for an intensive, hands-on lab experience tailored for VMware administrators. This one-day, in-person workshop will deepen your expertise in implementing and managing Azure VMware Solutions (AVS). You'll gain practical skills in deploying AVS, migrating VMware VMs to AVS, and integrating AVS with other Azure services, all designed to enhance your existing VMware knowledge and capabilities.Who should attend: The advanced hands-on lab workshop is curated to address a specialized audience of VMware specialists, including VMware administrators, solution architects, and technical consultants with a solid understanding of VMware tools and concepts, as the content is highly technical and advanced.\u00a0Audience competency: Level 400 Specialist Registration schedule: Secure your spot promptly. Seats are limited and will be allocated on a first-come, first-served basisHands-on labs: The advanced workshop hands-on lab includes setting up the AVS environment, migrating VMware VMs to Azure VMware Solutions using HCX, and integrating Azure services like Log Analytics and Monitor. A laptop is required for participation in the labs. Physical address: 2200 Mission College Blvd, Santa ClaraThis event is being hosted in partnership with Intel. For more information please refer to their privacy policy.",
+  "topics": [
+    "Azure VMware Solution",
+    "VMware"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=3617852414",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Partners",
+  "last_updated": "2025-04-24T16:55:45.831823"
+}

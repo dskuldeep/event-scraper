@@ -1,0 +1,35 @@
+{
+  "event_name": "Microsoft Discovery Hour: Accelerate Developer Productivity with AI",
+  "dates": {
+    "start": "2025-04-24",
+    "end": "2025-04-24",
+    "timezone": "EST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Mejorar la experiencia de los desarrolladores puede generar resultados empresariales medibles, como una innovaci\u00f3n un 20 % m\u00e1s r\u00e1pida y un 50 % menos de deuda tecnol\u00f3gica.1 Tres factores est\u00e1n demostrando tener el mayor impacto: la IA generativa, la ingenier\u00eda de plataformas y la seguridad. Microsoft Azure, una de las plataformas de desarrollo de generadas por IA l\u00edderes en el mundo, permite reimaginar la experiencia de los desarrolladores transformando los flujos de trabajo. \u00danase a este seminario web gratuito para obtener informaci\u00f3n t\u00e9cnica e historias de \u00e9xito reales sobre c\u00f3mo aumentar la productividad de su equipo con una combinaci\u00f3n de asistencia de IA y las mejores pr\u00e1cticas de la industria. Durante este evento, descubrir\u00e1s m\u00e1s sobre: Uso de la IA para aumentar la eficiencia en cada etapa del ciclo de vida del software para acelerar el desarrollo\u00a0Optimizaci\u00f3n de los flujos de trabajo colaborativos a trav\u00e9s de herramientas de autoservicio, integraciones flexibles y mejores pr\u00e1cticas en DevOps moderno e ingenier\u00eda de plataformas\u00a0Integraci\u00f3n de seguridad en el flujo de trabajo del desarrollador mediante la protecci\u00f3n del c\u00f3digo y la respuesta r\u00e1pida a las vulnerabilidades Esto es lo que puedes esperar: PRESENTACI\u00d3N DEL EVENTOBienvenida y apertura\u00a0Tendencias y desaf\u00edos actuales\u00a0\u00bfPor qu\u00e9 Microsoft?\u00a0Liberar el poder de la soluci\u00f3n para desarrolladores de Microsoft\u00a0A prueba de clientes\u00a0Preguntas y respuestas\u00a0Cierre y resumen de la oferta local\u00a0Haga clic aqu\u00ed para ver el C\u00f3digo de conducta de eventos de Microsoft. Descargo de responsabilidad: Microsoft Discovery Hour: Accelerate Developer Productivity with AI-est\u00e1 abierto al p\u00fablico y se ofrece sin costo alguno. Antes de registrarse para el evento, los empleados del gobierno deben consultar con sus empleadores para asegurarse de que su participaci\u00f3n est\u00e9 permitida y de acuerdo con las pol\u00edticas y leyes aplicables.",
+  "topics": [
+    "AI",
+    "Development",
+    "Security"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=1320997473",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Developers",
+  "last_updated": "2025-04-24T16:54:51.776038"
+}

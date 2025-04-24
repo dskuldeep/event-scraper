@@ -1,0 +1,35 @@
+{
+  "event_name": "Empowering Partners: Trust and Security in the AI world",
+  "dates": {
+    "start": "2025-04-24",
+    "end": "2025-04-24",
+    "timezone": "PST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Join us for \"Empowering Partners: Trust & Security in the AI World,\" where we explore the critical role of trust and security in AI. Discover how Microsoft ensures trustworthiness in its AI technologies and practices, and learn how our partners embody Microsoft's values, extending our commitment to trust and security to customers. Understand how trust sets us apart from the competition, driving customer loyalty and success. What you can expect: ol{margin-bottom:0in;margin-top:0in;}ul {margin-bottom:0in;margin-top:0in;}li {margin-top:.0in;margin-bottom:8pt;}ol.scriptor-listCounterResetlist!list-cc96d6b8-fa4b-4b77-9dee-df1f0852deb93 {counter-reset: section;}ol.scriptor-listCounterlist!list-cc96d6b8-fa4b-4b77-9dee-df1f0852deb93 {list-style-type:bullet;}li.listItemlist!list-cc96d6b8-fa4b-4b77-9dee-df1f0852deb93::before {counter-increment: section;content: none; display: inline-block;}Zero Trust Framework: Discuss the importance of adopting the Zero Trust security model to keep organizations resilient, consistent, and responsive to attacks. Building a Strong Security Culture: Emphasize the importance of building a strong security culture for resilience and digital trust. Creating a Company Culture Focused on Security: Share insights on how to embed security into the fabric of operations. Security Best Practices: Learn about security best practices to secure both data and productivity. Register now and let\u00b4s build a secure and trusted AI future together!",
+  "topics": [
+    "AI",
+    "Security",
+    "Zero Trust"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=133044605",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/microsoft365",
+  "last_updated": "2025-04-24T16:49:50.447863"
+}

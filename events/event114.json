@@ -1,0 +1,35 @@
+{
+  "event_name": "Microsoft Business Applications Launch Event",
+  "dates": {
+    "start": "2025-04-30",
+    "end": "2025-04-30",
+    "timezone": "PST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Transform the way you do business with Copilot and agents Sign up to shape the future of your business with AI-powered Microsoft Dynamics 365 and Microsoft Power Platform and unlock the cutting-edge power of the 2025 release wave 1. Join this digital event to: Improve decision-making and accelerate AI transformation with the latest updates to Copilot and agents. Streamline operations by creating custom agents that fit your specific team and business needs. Automate routine tasks, find actionable insights, and improve decision-making by expanding your AI capabilities. Scale customer engagement while maintaining compliance with intuitive workflows and smarter resource management. Three broadcast times are available, offering opportunities to join engaging conversations with leaders, get questions answered by subject matter experts, and connect at a time that suits you best when you register. April 30, 2025 | 9:00 AM \u2013 10:15 AM PT (UTC-7) | Americas broadcast April 30, 2025 | 10:00 AM \u2013 11:15 AM CET (UTC+1) | Europe, Middle East, Africa broadcast May 2, 2025 | 12:00 PM \u2013 1:15 PM SGT (UTC+8) | Asia broadcast",
+  "topics": [
+    "AI",
+    "Microsoft Dynamics 365",
+    "Microsoft Power Platform"
+  ],
+  "registration": {
+    "url": "https://aka.ms/MicrosoftBizAppsLaunchEvent",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Partners",
+  "last_updated": "2025-04-24T16:55:45.818160"
+}

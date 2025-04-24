@@ -1,0 +1,34 @@
+{
+  "event_name": "Microsoft Discovery Hour: M365 Copilot - Your AI Assistant",
+  "dates": {
+    "start": "2025-04-25",
+    "end": "2025-04-25",
+    "timezone": "WEST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Erfahren Sie, wie Sie sich AI zunutze machen k\u00f6nnen, um Ihre Organisation produktiver zu machen und zugleich die menschliche Kreativit\u00e4t anzuregen und Ihre Daten zu sch\u00fctzen.Sehen Sie, welch gro\u00dfe Unterst\u00fctzung M365 Copilot im Arbeitsalltag ist. Wir zeigen Ihnen konkrete Anwendungsf\u00e4lle und lassen auch Kund*innen zu Wort kommen, die den AI-Assistenten bereits im Einsatz haben.\nDie Themen im \u00dcberblick: Entdecken Sie die M\u00f6glichkeiten von Copilot und erleben Sie das Tool in Aktion.Erfahren Sie anhand von Beispielen aus der Praxis, wie Copilot die Produktivit\u00e4t steigert und die Kreativit\u00e4t anregt.Erfahren Sie, wie Copilot die Effizienz in den Bereichen Personalwesen, Finance, Vertrieb und Projektmanagement steigert.\nZielgruppe: Kaufm\u00e4nnische und IT-Entscheidungstr\u00e4ger*innenCIOs und CTOs",
+  "topics": [
+    "AI",
+    "Microsoft 365 Copilot"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=3508464639",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/microsoft365",
+  "last_updated": "2025-04-24T16:49:50.454787"
+}

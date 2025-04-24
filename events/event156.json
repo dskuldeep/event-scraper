@@ -1,0 +1,34 @@
+{
+  "event_name": "Connected, Autonomous & Electric Vehicle EXPO 2025",
+  "dates": {
+    "start": "2025-05-01",
+    "end": "2025-05-01",
+    "timezone": null
+  },
+  "location": {
+    "venue": "KARNATAKA TRADE PROMOTION ORGANISATION",
+    "city": "Bangalore",
+    "state": null,
+    "country": "India",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "Autonomous Vehicles",
+    "Electric Vehicles"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": null,
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.eventbrite.com/d/local/events/",
+  "last_updated": "2025-04-24T17:01:47.701368"
+}

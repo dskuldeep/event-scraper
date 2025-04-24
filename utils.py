@@ -19,7 +19,8 @@ from constants import (
     APP_NAME, USER_ID, SESSION_ID, MODEL,
     OUTPUT_DIR, OUTPUT_FILE
 )
-from prompts import EXTRACTION_AGENT_PROMPT
+from prompts import EXTRACTION_AGENT_PROMPT, NAVIGATION_AGENT_PROMPT
+from navigation_agent import NavigationAgent
 
 # Configure logging with colored output
 import logging.handlers
@@ -67,20 +68,13 @@ class EventDataStore:
         self.folder.mkdir(exist_ok=True)
         self.data_lock = Lock()
     def store_event(self, event_data: Dict[str, Any]) -> None:
-        """Store each event as a new numbered JSON file in the events folder."""
+        """Store each event as a new incremented JSON file in the events folder."""
         with self.data_lock:
             try:
-                # Use a hash of the source_url if available to avoid duplicates
-                url = event_data.get('source_url') or event_data.get('url')
-                if url:
-                    import hashlib
-                    event_hash = hashlib.md5(url.encode()).hexdigest()
-                    filename = self.folder / f"event_{event_hash}.json"
-                else:
-                    # Fallback: use count
-                    count = len(list(self.folder.glob('event_*.json'))) + 1
-                    filename = self.folder / f"event{count}.json"
-                # Write event data
+                # Find the next available eventN.json
+                existing = sorted([int(f.stem.replace('event', '')) for f in self.folder.glob('event*.json') if f.stem.replace('event', '').isdigit()])
+                next_num = (existing[-1] + 1) if existing else 1
+                filename = self.folder / f"event{next_num}.json"
                 with open(filename, 'w') as f:
                     json.dump(event_data, f, indent=2)
                 logger.info(f"💾 Stored event: {event_data.get('event_name', 'Unknown Event')} in {filename}")
@@ -88,9 +82,8 @@ class EventDataStore:
                 logger.error(f"Error storing event data: {str(e)}")
                 raise
     def get_stored_urls(self) -> Set[str]:
-        """Get set of all stored event URLs."""
         urls = set()
-        for file in self.folder.glob('event_*.json'):
+        for file in self.folder.glob('event*.json'):
             try:
                 with open(file, 'r') as f:
                     event = json.load(f)
@@ -215,110 +208,166 @@ class EventProcessor:
         )
         
     def process_documents(self) -> None:
-        """Process all unprocessed documents."""
+        """Process all unprocessed documents. Supports multiple events per document."""
         with self.processing_lock:
             documents = self.collector.get_unprocessed_documents()
-            
             for doc in documents:
                 try:
-                    # Extract clean text from HTML
                     soup = BeautifulSoup(doc.raw_content, 'lxml')
                     text_content = soup.get_text(separator='\n', strip=True)
-                    
+                    links = [a.get('href') for a in soup.find_all('a', href=True)]
                     logger.info(f"\n--- Scraped Website Context (First 500 chars) ---\n{text_content[:500]}\n--- End Context ---\n")
-                    
-                    # Create event info extraction prompt
+                    navigation_agent = NavigationAgent()
+                    decision = navigation_agent.decide(doc.url, doc.page_title, text_content, links)
+                    if decision["action"] == "click" and decision["links"]:
+                        logger.info(f"🔗 Navigation agent decided to click links: {decision['links']}")
+                        url_manager = URLManager()
+                        url_manager.add_urls(decision["links"])
+                        continue
                     prompt = f"""
                     Extract event information from this webpage content:
                     URL: {doc.url}
                     Title: {doc.page_title}
-                    
                     Content (plain text):
                     {text_content}
-                    
                     Return the information in the exact JSON schema as specified. Only include fields where information was found, use null for missing fields.
                     """
-                    
-                    # Get extraction agent to process content
                     content = types.Content(
                         role='user',
                         parts=[types.Part(text=prompt)]
                     )
-                    
-                    event_data = self._extract_event_info(content)
-                    
-                    # Only save if at least one meaningful field is present
-                    if event_data and self._has_meaningful_fields(event_data):
-                        event_data['source_url'] = doc.url
-                        event_data['last_updated'] = datetime.now().isoformat()
-                        
-                        # Store the event
-                        self.store.store_event(event_data)
-                        logger.info(f"📝 Extracted event: {event_data.get('event_name', 'Unknown Event')} from {doc.url}")
+                    events_data = self._extract_event_info(content)
+                    if events_data:
+                        for event_data in events_data:
+                            if self._has_meaningful_fields(event_data):
+                                event_data['source_url'] = doc.url
+                                event_data['last_updated'] = datetime.now().isoformat()
+                                self.store.store_event(event_data)
+                                logger.info(f"📝 Extracted event: {event_data.get('event_name', 'Unknown Event')} from {doc.url}")
+                            else:
+                                logger.warning(f"⚠️ Skipped saving event for {doc.url} (all fields null/empty or invalid JSON)")
                     else:
-                        logger.warning(f"⚠️ Skipped saving event for {doc.url} (all fields null/empty or invalid JSON)")
-                        
-                    # Mark document as processed
+                        logger.warning(f"⚠️ No valid events extracted for {doc.url}")
                     self.collector.mark_processed(doc.url)
-                    
                 except Exception as e:
                     logger.error(f"Error processing document {doc.url}: {str(e)}")
     
-    def _extract_event_info(self, content: types.Content) -> Optional[Dict]:
-        """Use extraction agent to parse event information."""
+    def _extract_event_info(self, content: types.Content) -> Optional[List[Dict]]:
+        """Use extraction agent to parse event information. Supports multiple events."""
         try:
             response = self.extraction_runner.run(
                 user_id=USER_ID,
                 session_id=self.session_id,
                 new_message=content
             )
-            
             for msg in response:
                 if msg.is_final_response():
                     raw = msg.content.parts[0].text
-                    
-                    # Try to extract/fix JSON from LLM output
-                    json_str = self._extract_json_block(raw)
-                    if not json_str:
-                        logger.warning(f"⚠️ No JSON found in LLM output: {raw[:200]}")
-                        return None
-                    
-                    try:
-                        event_data = json.loads(json_str)
-                        if isinstance(event_data, dict):
-                            return event_data
-                    except Exception as e:
-                        logger.warning(f"⚠️ JSON parse error: {e}\nRaw output: {json_str}")
-                        return None
+                    # Try to extract/fix JSON from LLM output (support multiple events)
+                    json_blocks = self._extract_json_blocks(raw)
+                    all_events = []
+                    for json_str in json_blocks:
+                        try:
+                            event_data = json.loads(json_str)
+                            if isinstance(event_data, dict):
+                                all_events.append(event_data)
+                            elif isinstance(event_data, list):
+                                all_events.extend([e for e in event_data if isinstance(e, dict)])
+                        except Exception as e:
+                            logger.warning(f"⚠️ JSON parse error: {e}\nRaw output: {json_str}")
+                            continue
+                    return all_events if all_events else None
             return None
         except Exception as e:
             logger.error(f"Extraction error: {str(e)}")
             return None
-    
-    def _extract_json_block(self, text: str) -> Optional[str]:
-        """Extract JSON block from text."""
+
+    def _extract_json_blocks(self, text: str) -> List[str]:
+        """Extract all JSON objects or arrays from text."""
         import re
-        # Try to find the first {...} block in the text
-        match = re.search(r'\{[\s\S]*\}', text)
-        if match:
-            return match.group(0)
-        return None
-    
-    def _has_meaningful_fields(self, event: Dict) -> bool:
-        """Check if event has at least one meaningful field."""
-        # Returns True if at least one field is not null/empty (excluding source_url, last_updated)
-        for k, v in event.items():
-            if k in ('source_url', 'last_updated'):
+        import json
+        
+        def balance_braces(json_str: str) -> str:
+            """Balance any unmatched braces in JSON string."""
+            open_count = json_str.count('{')
+            close_count = json_str.count('}')
+            open_array = json_str.count('[')
+            close_array = json_str.count(']')
+            
+            # Add missing closing braces/brackets
+            json_str = json_str.rstrip()
+            if open_count > close_count:
+                json_str += '}' * (open_count - close_count)
+            if open_array > close_array:
+                json_str += ']' * (open_array - close_array)
+            
+            return json_str
+        
+        def fix_truncated_array(json_str: str) -> str:
+            """Fix truncated arrays in JSON string by completing them."""
+            if '"speakers": [' in json_str and not '],' in json_str:
+                # Find the last complete speaker object
+                last_complete = json_str.rfind('},')
+                if last_complete > -1:
+                    # Keep everything up to last complete object and close arrays/objects
+                    json_str = json_str[:last_complete+1] + ']}'
+            return json_str
+
+        # First try to match complete arrays
+        array_match = re.search(r'\[\s*\{[\s\S]*?\}\s*\]', text)
+        if array_match:
+            json_str = array_match.group(0)
+            try:
+                # Verify if it's valid JSON
+                json.loads(json_str)
+                return [json_str]
+            except json.JSONDecodeError:
+                # Try to fix and validate
+                fixed = balance_braces(fix_truncated_array(json_str))
+                try:
+                    json.loads(fixed)
+                    return [fixed]
+                except json.JSONDecodeError:
+                    pass
+
+        # If no valid array found, try to extract individual complete objects
+        object_matches = re.finditer(r'\{\s*"event_name"[\s\S]*?\}(?=\s*[,\]])', text)
+        objects = []
+        
+        for match in object_matches:
+            try:
+                json_str = match.group(0)
+                # Fix any truncated arrays within the object
+                fixed = balance_braces(fix_truncated_array(json_str))
+                json.loads(fixed)  # Validate JSON
+                objects.append(fixed)
+            except json.JSONDecodeError:
                 continue
-            if isinstance(v, dict):
-                if self._has_meaningful_fields(v):
-                    return True
-            elif isinstance(v, list):
-                if any(self._has_meaningful_fields(x) if isinstance(x, dict) else x for x in v):
-                    return True
-            elif v not in (None, '', [], {}):
-                return True
-        return False
+        
+        if objects:
+            # Wrap multiple objects in an array
+            if len(objects) > 1:
+                return [f"[{','.join(objects)}]"]
+            return objects
+        
+        return []
+
+    def _has_meaningful_fields(self, event: Dict) -> bool:
+        """Check if event has at least a name and more event-specific fields."""
+        # Must have event_name
+        if not event.get('event_name'):
+            return False
+            
+        # Check if this looks like a speaker object
+        if all(key in event for key in ['name', 'title', 'organization']) and len(event) <= 5:
+            return False
+            
+        # Must have at least one of these event-specific fields
+        event_specific_fields = ['dates', 'location', 'description', 'topics', 'registration']
+        if not any(event.get(field) for field in event_specific_fields):
+            return False
+            
+        return True
 
 def log_agent_action(
     agent_name: str,

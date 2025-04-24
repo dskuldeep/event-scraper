@@ -1,0 +1,34 @@
+{
+  "event_name": "Olympic Games Paris 2024",
+  "dates": {
+    "start": null,
+    "end": null,
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": "Paris",
+    "state": null,
+    "country": "France",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": "Alibaba Cloud Supports Olympic Games Paris 2024 with AI-Powered Cloud Technology",
+  "topics": [
+    "AI",
+    "Cloud Technology"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Alibaba Cloud",
+    "website": "https://www.alibabacloud.com/",
+    "contact_email": null
+  },
+  "source_url": "https://www.alibabacloud.com/blog/a-list-of-ai-conferences-in-2024-and-beyond_661738",
+  "last_updated": "2025-04-24T17:02:23.914476"
+}

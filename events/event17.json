@@ -1,0 +1,33 @@
+{
+  "event_name": "In Person: Fabric Analyst in a Day (Healthcare) - Trace3 - Mountain View",
+  "dates": {
+    "start": "2025-04-28",
+    "end": "2025-04-28",
+    "timezone": "PST"
+  },
+  "location": {
+    "venue": null,
+    "city": "Mountain View",
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [
+    "Healthcare"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=13626077",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Trace3",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Azure",
+  "last_updated": "2025-04-24T16:49:06.623568"
+}

@@ -1,0 +1,33 @@
+{
+  "event_name": "Transform 2025",
+  "dates": {
+    "start": "2025-06-24",
+    "end": "2025-06-25",
+    "timezone": null
+  },
+  "location": {
+    "venue": null,
+    "city": "San Francisco",
+    "state": "CA",
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": "Transform 2025 is the premier AI event where enterprise leaders cut through the hype, and gain real strategies, insights, and connections to turn AI from concept to reality at scale.",
+  "topics": [
+    "AI"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "VentureBeat",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://venturebeat.com/events/",
+  "last_updated": "2025-04-24T16:58:17.249194"
+}

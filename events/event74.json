@@ -1,0 +1,40 @@
+{
+  "event_name": "Microsoft Virtual Briefing - XDR Unleashed: Unifying Threat Defence with Microsoft\u200b",
+  "dates": {
+    "start": "2025-05-06",
+    "end": "2025-05-06",
+    "timezone": "PST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "This session will have two speakers: Trevor Stuart, Senior Global Black Belt Security Specialist at Microsoft and Jason Floyd, Chief Security Officer at Ascent Solutions.Ascent Solution excels at deploying and configuring the Microsoft security stack allowing businesses to stay secure and operating efficiently. Stopping threat actors and modernizing cyber operations.Ascent consultants share a determination to secure and manage ecosystems, ensuring safety from current and emerging threats.Note: As you register for this session, we encourage you to check the box that allows our Microsoft Partner to contact you. This will allow a follow-up to the session that could give you access to additional support or specific offerings for customers that attended the session.XDR Unleashed: Unifying Threat Defense with MicrosoftWe are thrilled to invite you to this exclusive event where you will have a unique opportunity to sit down with our fantastic subject matter experts to discover more on how Microsoft can revolutionize your work processes and empower your organization to achieve more!Threat Protection with SIEM + XDRIn an era where cyberattacks are more frequent and relentless, join this briefing to learn how Microsoft and its Partners are changing the game with Extended Detection and Response (XDR). Join us to understand how XDR brings the entire lifecycle of threats together under one unified experience. Discover how it empowers you to prevent attacks, strengthen your security posture, and disrupt threats in near-real time using AI. Stay ahead of the curve with Microsoft's XDR solution.These Briefings are designed to be an open platform where you can ask questions, engage in discussions, and ultimately get real-world answers that you need. Our speakers will share their expert insights providing you the opportunity to discover the solutions to take your business to the next level.Who should attend:IT & Business leaders who are responsible for making decisionsIT professionals who manage their organizations infrastructureIf you are under the age of 16, registration is not permitted, as event-related data is stored and this violates current data protection laws for minors. Failure to comply will result in automatic cancellation. Thank you for your understanding.",
+  "topics": [
+    "Threat Detection",
+    "Cybersecurity"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=4270094472",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [
+    {
+      "name": "Trevor Stuart",
+      "title": "Senior Global Black Belt Security Specialist",
+      "organization": "Microsoft"
+    },
+    {
+      "name": "Jason Floyd",
+      "title": "Chief Security Officer",
+      "organization": "Ascent Solutions"
+    }
+  ],
+  "source_url": "https://events.microsoft.com/en-us/surface",
+  "last_updated": "2025-04-24T16:52:16.207018"
+}

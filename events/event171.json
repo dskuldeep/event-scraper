@@ -1,0 +1,33 @@
+{
+  "event_name": "TechEquity Ai Summit 2025 | Unlocked: A Year in AI for Everyone (Hybrid)",
+  "dates": {
+    "start": "2025-11-07",
+    "end": "2025-11-07",
+    "timezone": null
+  },
+  "location": {
+    "venue": "Computer History Museum",
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": true
+  },
+  "description": null,
+  "topics": [
+    "AI"
+  ],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "TechEquity",
+    "website": null,
+    "contact_email": null
+  },
+  "source_url": "https://www.eventbrite.com/d/united-states/ai-summit/",
+  "last_updated": "2025-04-24T17:07:48.877889"
+}

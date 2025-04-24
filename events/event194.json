@@ -1,0 +1,187 @@
+{
+  "event_name": "CDAO Sydney",
+  "dates": {
+    "start": "2025-05-07",
+    "end": "2025-05-08",
+    "timezone": null
+  },
+  "location": {
+    "venue": "Royal Randwick Racecourse",
+    "city": "Sydney",
+    "state": null,
+    "country": null,
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [
+    {
+      "name": "Michaela Shea",
+      "title": "Advisory Board Member",
+      "organization": "Corinium Global Intelligence"
+    },
+    {
+      "name": "Jonathan Cook",
+      "title": "Chief Data & Analytics Officer",
+      "organization": "Westpac Institutional Bank"
+    },
+    {
+      "name": "Ash Nair",
+      "title": "General Manager - Data Analytics Automation and AI (CDAO)",
+      "organization": "icare NSW"
+    },
+    {
+      "name": "Rafaela Salzer",
+      "title": "CDAO",
+      "organization": "Hollard Insurance"
+    },
+    {
+      "name": "Gina Choutis",
+      "title": "GM Data & Analytics",
+      "organization": "Vocus"
+    },
+    {
+      "name": "Siamak Tafavogh",
+      "title": "Head of Business Insights Group",
+      "organization": "CBHS"
+    },
+    {
+      "name": "Yoga Yohesvaran",
+      "title": "Head of Data and Information Governance",
+      "organization": "Colonial First State"
+    },
+    {
+      "name": "Brad Starr",
+      "title": "VP, Technical Sales",
+      "organization": "Informatica"
+    },
+    {
+      "name": "Tal Bergman",
+      "title": "Chief Data Officer",
+      "organization": "Zip Co"
+    },
+    {
+      "name": "Elaine Zhuang",
+      "title": "General Manager, Strategy, Transformation and Value Delivery, Chief Data Office",
+      "organization": "nbn Australia"
+    },
+    {
+      "name": "Sam Darmo",
+      "title": "Senior Sales Engineer",
+      "organization": "Precisely"
+    },
+    {
+      "name": "Akanksha Wangnoo",
+      "title": "Executive Data Risk Governance",
+      "organization": "NAB"
+    },
+    {
+      "name": "Jonathan Morar",
+      "title": "Enterprise Solution Architect",
+      "organization": "Tricentis"
+    },
+    {
+      "name": "Scott Lam",
+      "title": "Data Conduct: Records Management SME, Group Compliance",
+      "organization": "Standard Chartered"
+    },
+    {
+      "name": "Adam Plotnikov",
+      "title": "Senior Solutions Engineer",
+      "organization": "BigID"
+    },
+    {
+      "name": "Mark Wroniak",
+      "title": "Partner Cyber Security",
+      "organization": "McGrathNicol"
+    },
+    {
+      "name": "Gladwin Mendez",
+      "title": "Advisory Board Member",
+      "organization": "Corinium Global Intelligence"
+    },
+    {
+      "name": "Tim Stead",
+      "title": "Technical Director",
+      "organization": "Securiti"
+    },
+    {
+      "name": "Sree Devi",
+      "title": "Head, Digital Centre of Excellence \u2013 Corporate",
+      "organization": "WaterNSW"
+    },
+    {
+      "name": "Pooyan Asgari",
+      "title": "Chief Data Officer",
+      "organization": "Domain Group"
+    },
+    {
+      "name": "Brad Kasell",
+      "title": "Principal Technology Strategist (APAC)",
+      "organization": "Domo"
+    },
+    {
+      "name": "Malcolm Wanstall",
+      "title": "VP Data",
+      "organization": "Cochlear"
+    },
+    {
+      "name": "Sam Stark",
+      "title": "Head of Advanced Analytics Capabilities",
+      "organization": "Endeavour Group"
+    },
+    {
+      "name": "Amyn Nathwani",
+      "title": "Head of Data Governance and Privacy",
+      "organization": "Healthdirect Australia"
+    },
+    {
+      "name": "Anil Arya",
+      "title": "Head of Data and Technology",
+      "organization": "Australian Conservation Foundation"
+    },
+    {
+      "name": "Ritesh Deshpande",
+      "title": "Head of Delivery and Data Governance",
+      "organization": "Southern Cross Care"
+    },
+    {
+      "name": "Tushant Nayyar",
+      "title": "Head of Data Services",
+      "organization": "QBE"
+    },
+    {
+      "name": "Vedvrat Sharma",
+      "title": "Head of Engineering & Data",
+      "organization": "Screenrights"
+    },
+    {
+      "name": "Lu Luc",
+      "title": "Head of Data Strategy, AI and Cortex Services",
+      "organization": "Westpac"
+    },
+    {
+      "name": "Billy Loizou",
+      "title": "Area Vice President",
+      "organization": "Amperity"
+    },
+    {
+      "name": "Sam Bessey",
+      "title": "Solution Lead",
+      "organization": "Amperity"
+    },
+    {
+      "name": "Mike Zhou",
+      "title": "Chief Data Officer",
+      "organization": "InDebted"
+    }
+  ],
+  "source_url": "https://cdao-syd.coriniumintelligence.com/agenda",
+  "last_updated": "2025-04-24T17:18:39.719419"
+}

@@ -21,21 +21,17 @@ from constants import EVENT_SCHEMA, OUTPUT_FILE
 from utils import logger
 
 def setup_webdriver() -> webdriver.Chrome:
-    """Initialize and return a configured Chrome webdriver."""
+    """Initialize and return a configured Chrome webdriver (headless by default)."""
     options = Options()
+    options.add_argument("--headless=new")  # Headless mode for Chrome 109+
     options.add_argument("--window-size=1920x1080")
     options.add_argument("--start-maximized")
     options.add_experimental_option("detach", True)
-    
     # Add logging preferences
     options.set_capability('goog:loggingPrefs', {'browser': 'ALL'})
-    
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=options)
-    
-    # Set page load timeout
     driver.set_page_load_timeout(30)
-    
     return driver
 
 def is_valid_url(url: str) -> bool:

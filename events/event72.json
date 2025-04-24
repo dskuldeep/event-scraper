@@ -1,0 +1,34 @@
+{
+  "event_name": "Microsoft Virtual Briefing - OpenAI on Azure - 2-hours hands on workshop",
+  "dates": {
+    "start": "2025-04-30",
+    "end": "2025-04-30",
+    "timezone": "GMT"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Localized times:British Summer Time: 2:00PM - 4:00PM BST (UTC+1:00)Central European Summer Time: 3:00PM - 5:00PM CEST (UTC+2:00)Eastern European Summer Time: 4:00PM - 6:00PM EEST (UTC+3:00)We are thrilled to invite you to this exclusive event where you will have a unique opportunity to sit down with our fantastic subject matter experts to discover more on how Microsoft can revolutionize your work processes and empower your organization to achieve more!Detailed Agenda:14:00 \u2013 14:20 Presentation - Introduction to Azure OpenAIDeep dive and some theoryResponsible AI\u00a014:20 \u2013 14:50 Walk through Azure AI Studio setupMonitoring of AI modelsCost considerationsProvisioned throughputPTU calculator demo\u00a014:50 \u2013 15:00 Break\u00a015:00 \u2013 15:50 Prompts and tokensPrompt engineering vs fine tuningDemo, hands on and workshop walkthroughCode samples walk through and setupDeep dive on sample code\u00a015:50 - 16:00\nQuestions and answers, wrapping upThese Briefings are designed to be an open platform where you can ask questions, engage in discussions, and ultimately get real-world answers that you need. Our speakers will share their expert insights providing you the opportunity to discover the solutions to take your business to the next level.If you are under the age of 16, registration is not permitted, as event-related data is stored and this violates current data protection laws for minors. Failure to comply will result in automatic cancellation. Thank you for your understanding.",
+  "topics": [
+    "OpenAI",
+    "Azure"
+  ],
+  "registration": {
+    "url": "https://msevents.microsoft.com/event?id=4247080310",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/surface",
+  "last_updated": "2025-04-24T16:52:16.200017"
+}

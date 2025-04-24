@@ -1,0 +1,31 @@
+{
+  "event_name": "Azure Live Q&A",
+  "dates": {
+    "start": "2025-05-01",
+    "end": "2025-05-01",
+    "timezone": "PST"
+  },
+  "location": {
+    "venue": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "virtual": true,
+    "hybrid": null
+  },
+  "description": "Join a live Q&A session with an Azure technical expert in a live webinar format. Ask questions about your specific project or use case and learn from others in the Azure community. Schedule a session anytime you have a question or are looking for inspiration.",
+  "topics": [],
+  "registration": {
+    "url": "https://info.microsoft.com/ww-landing-azure-live-qa-webinar-01-05-2025.html?lcid=en-us",
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com/",
+    "contact_email": null
+  },
+  "source_url": "https://events.microsoft.com/en-us/Allevents/?role=Partners",
+  "last_updated": "2025-04-24T16:55:45.826613"
+}

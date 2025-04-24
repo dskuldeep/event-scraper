@@ -1,0 +1,31 @@
+{
+  "event_name": "OpenSearchCon Europe 2025",
+  "dates": {
+    "start": "2025-04-30",
+    "end": "2025-05-01",
+    "timezone": "Central European Summer Time (UTC+02:00)"
+  },
+  "location": {
+    "venue": null,
+    "city": "Amsterdam",
+    "state": null,
+    "country": "Netherlands",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "The Linux Foundation",
+    "website": "https://www.linuxfoundation.org/",
+    "contact_email": null
+  },
+  "source_url": "https://events.linuxfoundation.org/opensearchcon-europe/program/schedule/",
+  "last_updated": "2025-04-24T16:48:31.923347"
+}

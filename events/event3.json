@@ -1,0 +1,31 @@
+{
+  "event_name": "Gamescom Latam 2025",
+  "dates": {
+    "start": "2025-04-30",
+    "end": "2025-05-04",
+    "timezone": null
+  },
+  "location": {
+    "venue": "Anhembi District Convention Center",
+    "city": "S\u00e3o Paulo",
+    "state": null,
+    "country": "Brazil",
+    "virtual": null,
+    "hybrid": null
+  },
+  "description": null,
+  "topics": [],
+  "registration": {
+    "url": null,
+    "deadline": null,
+    "prices": []
+  },
+  "speakers": [],
+  "organizer": {
+    "name": "NVIDIA",
+    "website": "https://www.nvidia.com/",
+    "contact_email": null
+  },
+  "source_url": "https://www.nvidia.com/events/",
+  "last_updated": "2025-04-24T16:46:04.657313"
+}
